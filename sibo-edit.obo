@@ -36,11 +36,6 @@ synonym: "Carbamide" EXACT [KEGG COMPOUND:C00086 "http://www.genome.ad.jp/dbget-
 is_a: SIBO:0000002 ! Organic Compound
 
 [Term]
-id: SIBO:0000004
-name: <new term>
-is_obsolete: true
-
-[Term]
 id: SIBO:0000005
 name: 2-Quinolinecarbixylic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
@@ -57,11 +52,6 @@ is_a: SIBO:0000150 ! Hydrocarbons
 id: SIBO:0000007
 name: ;
 def: ";" [XXl;'k':<nelk';l "'k"]
-is_obsolete: true
-
-[Term]
-id: SIBO:0000008
-name: <new term>
 is_obsolete: true
 
 [Term]
@@ -129,21 +119,11 @@ is_a: SIBO:0000144 ! R-dodecan-2-ol
 relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: SIBO:0000017
-name: <new term>
-is_obsolete: true
-
-[Term]
 id: SIBO:0000018
 name: 2-Butyl-2-octenal
 def: "2-Butyl-2-octenal." [Book:0674040759 "The Ants (pg263)"]
 is_a: SIBO:0000144 ! R-dodecan-2-ol
 relationship: derived_from SIBO:0000258 ! Mandibular gland
-
-[Term]
-id: SIBO:0000019
-name: <new term>
-is_obsolete: true
 
 [Term]
 id: SIBO:0000020
@@ -249,36 +229,16 @@ comment: Glandular Source:Pygidial.
 is_a: SIBO:0000161 ! Cyclic ketone
 
 [Term]
-id: SIBO:0000036
-name: <new term>
-is_obsolete: true
-
-[Term]
 id: SIBO:0000037
 name: cis-1-Acetyl-2-methylcyclopentane
 comment: Glandular Source:Pygidial.
 is_a: SIBO:0000161 ! Cyclic ketone
 
 [Term]
-id: SIBO:0000038
-name: <new term>
-is_obsolete: true
-
-[Term]
 id: SIBO:0000039
 name: 2-Methylcyclopentanone
 comment: Glandular Source:Pygidial.
 is_a: SIBO:0000161 ! Cyclic ketone
-
-[Term]
-id: SIBO:0000040
-name: <new term>
-is_obsolete: true
-
-[Term]
-id: SIBO:0000041
-name: <new term>
-is_obsolete: true
 
 [Term]
 id: SIBO:0000042
