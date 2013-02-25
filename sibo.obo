@@ -2,775 +2,771 @@ format-version: 1.2
 date: 25:06:2011 13:11
 saved-by: cdsmith
 auto-generated-by: OBO-Edit 2.1-beta13
-default-namespace: default_namespace
+default-namespace: sibo
+ontology: sibo
 
 [Term]
-id: <your rule>
-name: <new term>
-is_obsolete: true
-
-[Term]
-id: ID:0000000
+id: SIBO:0000000
 name: beta-elemene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
 
 [Term]
-id: ID:0000001
+id: SIBO:0000001
 name: Glycerol
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:17754 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Glycerol\nSource of Standard: Sigma-Aldrich.\nSample Type-2: Silica gel in bottles or vials.\nAnalysis Method-2: Water extraction with derivatization.\nCompound Name-2: Glycerol\nSource of Standard-2: Sigma-Aldrich.
-is_a: ID:0000478 ! Alcohol
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000478 ! Alcohol
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000002
+id: SIBO:0000002
 name: Organic Compound
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000003
+id: SIBO:0000003
 name: Urea
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Urea.\nSource of Standard: Alfa Aesar.
 synonym: "Carbamide" EXACT [KEGG COMPOUND:C00086 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:C00086"]
-is_a: ID:0000002 ! Organic Compound
+is_a: SIBO:0000002 ! Organic Compound
 
 [Term]
-id: ID:0000004
+id: SIBO:0000004
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000005
+id: SIBO:0000005
 name: 2-Quinolinecarbixylic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: 2-Quinolinecarbixylic acid.\nSource of Standard: Sigma-Aldrich.
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000006
+id: SIBO:0000006
 name: n-Decane
 comment: Glandular Source:Dufour's.
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000007
+id: SIBO:0000007
 name: ;
 def: ";" [XXl;'k':<nelk';l "'k"]
 is_obsolete: true
 
 [Term]
-id: ID:0000008
+id: SIBO:0000008
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000009
+id: SIBO:0000009
 name: Formic acid
 def: "Formic acid." [ChEBI:30751 "http://www.ebi.ac.uk/chebi/"]
 comment: Glandular source: Poison.
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: derived_from ID:0000259 ! Poison gland
-#is_a: ID:0000159              80
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: derived_from SIBO:0000259 ! Poison gland
+#is_a: SIBO:0000159              80
 
 [Term]
-id: ID:0000010
+id: SIBO:0000010
 name: 3-Octanol
 def: "3-Octanol." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Mandibular.
-is_a: ID:0000478 ! Alcohol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000478 ! Alcohol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000011
+id: SIBO:0000011
 name: 3-Decanol
 def: "3-Decanol." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Mandibular.
-is_a: ID:0000478 ! Alcohol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000478 ! Alcohol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000012
+id: SIBO:0000012
 name: 6-Methyl-5-hepten-2-ol
 def: "6-Methyl-5-hepten-2-ol." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Pygidal.
-is_a: ID:0000478 ! Alcohol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000478 ! Alcohol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000013
+id: SIBO:0000013
 name: 4-Heptanol
 def: "4-Heptanol." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Mandibular.
-is_a: ID:0000478 ! Alcohol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000478 ! Alcohol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000014
+id: SIBO:0000014
 name: 4-Methyl-3-heptanol
 def: "4-Methyl-3-heptanol." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Mandibular.
-is_a: ID:0000478 ! Alcohol
-relationship: derived_from ID:0000255 ! Pygidial gland
+is_a: SIBO:0000478 ! Alcohol
+relationship: derived_from SIBO:0000255 ! Pygidial gland
 
 [Term]
-id: ID:0000015
+id: SIBO:0000015
 name: 1-Hexanol
 def: "1-Hexanol." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Mandibular.
-is_a: ID:0000478 ! Alcohol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000478 ! Alcohol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000016
+id: SIBO:0000016
 name: 2-Hexanal
 def: "2-Hexanal." [Book:0674040759 "The Ants (pg263)"]
-is_a: ID:0000144 ! R-dodecan-2-ol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000144 ! R-dodecan-2-ol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000017
+id: SIBO:0000017
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000018
+id: SIBO:0000018
 name: 2-Butyl-2-octenal
 def: "2-Butyl-2-octenal." [Book:0674040759 "The Ants (pg263)"]
-is_a: ID:0000144 ! R-dodecan-2-ol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000144 ! R-dodecan-2-ol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000019
+id: SIBO:0000019
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000020
+id: SIBO:0000020
 name: Hexanal
 def: "Hexanal." [Book:0674040759 "The Ants (pg263)."]
-is_a: ID:0000144 ! R-dodecan-2-ol
-relationship: derived_from ID:0000254 ! Cephalic gland
+is_a: SIBO:0000144 ! R-dodecan-2-ol
+relationship: derived_from SIBO:0000254 ! Cephalic gland
 
 [Term]
-id: ID:0000021
+id: SIBO:0000021
 name: 2-Methyl-4-heptanone
 def: "2-Methyl-4-heptanone." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Pygidial.
-is_a: ID:0000160 ! S-octan-3-ol
-relationship: derived_from ID:0000255 ! Pygidial gland
+is_a: SIBO:0000160 ! S-octan-3-ol
+relationship: derived_from SIBO:0000255 ! Pygidial gland
 
 [Term]
-id: ID:0000022
+id: SIBO:0000022
 name: 4-Heptanone
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000023
+id: SIBO:0000023
 name: 3-Decanone
 def: "3-Decanone." [Book:0674040759 "The Ants (pg 263)"]
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000024
+id: SIBO:0000024
 name: 2-Heptanone
 def: "2-Heptanone." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Madibular.
-is_a: ID:0000160 ! S-octan-3-ol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000160 ! S-octan-3-ol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000025
+id: SIBO:0000025
 name: 4,6-Dimethyl-4-octen-3-one
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000026
+id: SIBO:0000026
 name: 4-Methyl-2-hexanone
 comment: Glandular Source:Pyidial.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000027
+id: SIBO:0000027
 name: 6-Methyl-5-hepten-2-one
 comment: Glandular Source:Pygidial.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000028
+id: SIBO:0000028
 name: 5-Methyl-3-heptanone
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000029
+id: SIBO:0000029
 name: 4-Methyl-3-heptanone
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000030
+id: SIBO:0000030
 name: 2-Tridecanone
 def: "2-Tridecanone." [Book:0674040759 "The Ants (pg263)"]
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
-relationship: derived_from ID:0000261 ! Dufour's gland
+is_a: SIBO:0000160 ! S-octan-3-ol
+relationship: derived_from SIBO:0000261 ! Dufour's gland
 
 [Term]
-id: ID:0000031
+id: SIBO:0000031
 name: 3-Octanone
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
-relationship: derived_from ID:0000258 ! Mandibular gland
+is_a: SIBO:0000160 ! S-octan-3-ol
+relationship: derived_from SIBO:0000258 ! Mandibular gland
 
 [Term]
-id: ID:0000032
+id: SIBO:0000032
 name: 3-Nonanone
 comment: Glandular Source:Mandibular.
-is_a: ID:0000160 ! S-octan-3-ol
+is_a: SIBO:0000160 ! S-octan-3-ol
 
 [Term]
-id: ID:0000033
+id: SIBO:0000033
 name: Carboxylic acids
 is_obsolete: true
 
 [Term]
-id: ID:0000034
+id: SIBO:0000034
 name: bvc
 is_obsolete: true
 
 [Term]
-id: ID:0000035
+id: SIBO:0000035
 name: 2-Acetyl-3-methylcyclopentene
 comment: Glandular Source:Pygidial.
-is_a: ID:0000161 ! Cyclic ketone
+is_a: SIBO:0000161 ! Cyclic ketone
 
 [Term]
-id: ID:0000036
+id: SIBO:0000036
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000037
+id: SIBO:0000037
 name: cis-1-Acetyl-2-methylcyclopentane
 comment: Glandular Source:Pygidial.
-is_a: ID:0000161 ! Cyclic ketone
+is_a: SIBO:0000161 ! Cyclic ketone
 
 [Term]
-id: ID:0000038
+id: SIBO:0000038
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000039
+id: SIBO:0000039
 name: 2-Methylcyclopentanone
 comment: Glandular Source:Pygidial.
-is_a: ID:0000161 ! Cyclic ketone
+is_a: SIBO:0000161 ! Cyclic ketone
 
 [Term]
-id: ID:0000040
+id: SIBO:0000040
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000041
+id: SIBO:0000041
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000042
+id: SIBO:0000042
 name: Methyl anthranilate
 comment: Glandular Source:Cephalic.
-is_a: ID:0000162 ! Esters
+is_a: SIBO:0000162 ! Esters
 
 [Term]
-id: ID:0000043
+id: SIBO:0000043
 name: Dodecyl acetate
 comment: Glandular Source:Dufour's.
-is_a: ID:0000162 ! Esters
+is_a: SIBO:0000162 ! Esters
 
 [Term]
-id: ID:0000044
+id: SIBO:0000044
 name: Decyl acetate
 comment: Glandular Source:Dufour's.
-is_a: ID:0000162 ! Esters
+is_a: SIBO:0000162 ! Esters
 
 [Term]
-id: ID:0000045
+id: SIBO:0000045
 name: Methyl 6-methylsalicylate
 comment: Glandular Source:Cephalic.
-is_a: ID:0000162 ! Esters
+is_a: SIBO:0000162 ! Esters
 
 [Term]
-id: ID:0000046
+id: SIBO:0000046
 name: Tetradecyl acetate
 comment: Glandular Source:Dufour's.
-is_a: ID:0000162 ! Esters
+is_a: SIBO:0000162 ! Esters
 
 [Term]
-id: ID:0000047
+id: SIBO:0000047
 name: delta1-15Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
 
 [Term]
-id: ID:0000048
+id: SIBO:0000048
 name: Invictolide
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
 
 [Term]
-id: ID:0000049
+id: SIBO:0000049
 name: beta-selinene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
 
 [Term]
-id: ID:0000050
+id: SIBO:0000050
 name: alpha-selinene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
 
 [Term]
-id: ID:0000051
+id: SIBO:0000051
 name: 6-E1-pentenyl-2-pyranone
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000439 ! Recognition
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000439 ! Recognition
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000052
+id: SIBO:0000052
 name: Z,Z-alpha-homofarnesene
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000053
+id: SIBO:0000053
 name: E,E-alpha-farnesene
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000054
+id: SIBO:0000054
 name: Bee colony defense
-is_a: ID:0000516 ! Colony Defense
-relationship: is_relevant_for OBO_REL: ! Apis mellifera
+is_a: SIBO:0000516 ! Colony Defense
+relationship: is_relevant_for NCBITaxon:7460 ! Apis mellifera
 
 [Term]
-id: ID:0000055
+id: SIBO:0000055
 name: perception of threat
-is_a: ID:0000054 ! Bee colony defense
-relationship: precedes ID:0000069 ! Orientation
-relationship: precedes ID:0000075 ! Disengagement
+is_a: SIBO:0000054 ! Bee colony defense
+relationship: precedes SIBO:0000069 ! Orientation
+relationship: precedes SIBO:0000075 ! Disengagement
 
 [Term]
-id: ID:0000056
+id: SIBO:0000056
 name: Z,E-alpha-homofarnesene
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000057
+id: SIBO:0000057
 name: Triolein
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000439 ! Recognition
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000439 ! Recognition
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000058
+id: SIBO:0000058
 name: 2S6S-2me-6-undecylpiperidine
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
-relationship: is_relevant_for ID:0000466 ! Solenopsis richteri
-relationship: is_relevant_for ID:0000469 ! Solenopsis xyloni
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
+relationship: is_relevant_for SIBO:0000466 ! Solenopsis richteri
+relationship: is_relevant_for SIBO:0000469 ! Solenopsis xyloni
 
 [Term]
-id: ID:0000059
+id: SIBO:0000059
 name: Z5Z9-3-butyl-5me-octahydroindolizine
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000463 ! Solenopsis maboya
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000463 ! Solenopsis maboya
 
 [Term]
-id: ID:0000060
+id: SIBO:0000060
 name: E5E9-3-butyl-5me-octahydroindolizine
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000463 ! Solenopsis maboya
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000463 ! Solenopsis maboya
 
 [Term]
-id: ID:0000061
+id: SIBO:0000061
 name: 2S6R-2-me-6-heptylpiperidine
 def: "2S6R-2-me-6-heptylpiperidine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000463 ! Solenopsis maboya
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000463 ! Solenopsis maboya
 
 [Term]
-id: ID:0000062
+id: SIBO:0000062
 name: E5E9-3-hexyl-5-methylindolizidine
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000464 ! Solenopsis molesta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000464 ! Solenopsis molesta
 
 [Term]
-id: ID:0000063
+id: SIBO:0000063
 name: Z5E9-3-hexyl-5-methylindolizidine
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000464 ! Solenopsis molesta
-relationship: is_relevant_for ID:0000467 ! Solenopsis sp
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000464 ! Solenopsis molesta
+relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 
 [Term]
-id: ID:0000064
+id: SIBO:0000064
 name: Z5E8-3-heptyl-5me-pyrrolizidine
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000468 ! Solenopsis tennesseensis
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000468 ! Solenopsis tennesseensis
 
 [Term]
-id: ID:0000065
+id: SIBO:0000065
 name: 2me-6-Z4-nonylpiperidine
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000467 ! Solenopsis sp
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 
 [Term]
-id: ID:0000066
+id: SIBO:0000066
 name: Z5Z9-3-butyl-5-propylindolizidine
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000467 ! Solenopsis sp
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 
 [Term]
-id: ID:0000067
+id: SIBO:0000067
 name: E5E9-3-butyl-5-propylindolizidine
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000467 ! Solenopsis sp
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 
 [Term]
-id: ID:0000068
+id: SIBO:0000068
 name: Discrimination or Identificiation
-is_a: ID:0000054 ! Bee colony defense
-relationship: precedes ID:0000073 ! Alert
-relationship: precedes ID:0000075 ! Disengagement
+is_a: SIBO:0000054 ! Bee colony defense
+relationship: precedes SIBO:0000073 ! Alert
+relationship: precedes SIBO:0000075 ! Disengagement
 
 [Term]
-id: ID:0000069
+id: SIBO:0000069
 name: Orientation
-is_a: ID:0000054 ! Bee colony defense
-relationship: precedes ID:0000068 ! Discrimination or Identificiation
-relationship: precedes ID:0000075 ! Disengagement
+is_a: SIBO:0000054 ! Bee colony defense
+relationship: precedes SIBO:0000068 ! Discrimination or Identificiation
+relationship: precedes SIBO:0000075 ! Disengagement
 
 [Term]
-id: ID:0000070
+id: SIBO:0000070
 name: new2
 is_obsolete: true
 
 [Term]
-id: ID:0000071
+id: SIBO:0000071
 name: Approach
-is_a: ID:0000054 ! Bee colony defense
-relationship: precedes ID:0000072 ! Secondary perception and discrimination or identification
-relationship: precedes ID:0000075 ! Disengagement
+is_a: SIBO:0000054 ! Bee colony defense
+relationship: precedes SIBO:0000072 ! Secondary perception and discrimination or identification
+relationship: precedes SIBO:0000075 ! Disengagement
 
 [Term]
-id: ID:0000072
+id: SIBO:0000072
 name: Secondary perception and discrimination or identification
-is_a: ID:0000054 ! Bee colony defense
-relationship: precedes ID:0000075 ! Disengagement
-relationship: precedes ID:0000076 ! Threat
-relationship: precedes ID:0000233 ! Attack
+is_a: SIBO:0000054 ! Bee colony defense
+relationship: precedes SIBO:0000075 ! Disengagement
+relationship: precedes SIBO:0000076 ! Threat
+relationship: precedes SIBO:0000233 ! Attack
 
 [Term]
-id: ID:0000073
+id: SIBO:0000073
 name: Alert
-is_a: ID:0000054 ! Bee colony defense
-relationship: precedes ID:0000071 ! Approach
-relationship: precedes ID:0000075 ! Disengagement
-relationship: precedes ID:0000442 ! Recruitment
+is_a: SIBO:0000054 ! Bee colony defense
+relationship: precedes SIBO:0000071 ! Approach
+relationship: precedes SIBO:0000075 ! Disengagement
+relationship: precedes SIBO:0000442 ! Recruitment
 
 [Term]
-id: ID:0000074
+id: SIBO:0000074
 name: new
 is_obsolete: true
 
 [Term]
-id: ID:0000075
+id: SIBO:0000075
 name: Disengagement
-is_a: ID:0000054 ! Bee colony defense
+is_a: SIBO:0000054 ! Bee colony defense
 
 [Term]
-id: ID:0000076
+id: SIBO:0000076
 name: Threat
-is_a: ID:0000054 ! Bee colony defense
-relationship: precedes ID:0000075 ! Disengagement
-relationship: precedes ID:0000233 ! Attack
+is_a: SIBO:0000054 ! Bee colony defense
+relationship: precedes SIBO:0000075 ! Disengagement
+relationship: precedes SIBO:0000233 ! Attack
 
 [Term]
-id: ID:0000077
+id: SIBO:0000077
 name: 4Rme-7-3Kt
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000078
+id: SIBO:0000078
 name: katepisternum
 is_obsolete: true
 
 [Term]
-id: ID:0000079
+id: SIBO:0000079
 name: apical tooth of mandible
 def: "Apical margin/tooth- See Mandibles" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000080
+id: SIBO:0000080
 name: anterior tentorial pit
 def: "Anterior tentorial pits- A pair of pits of impressions located anteriorly on the dorsal surface of the head, at or very close to the posterior clypeal margin. The pits indicate the points of attachment of the anterior arms of the internal skeleton (tentorium) of the head to head capsule. The termination of the posterior arms of the tentorium are marked by a pair of posterior tentorial pits, which are located close to the occipital foramen." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000081
+id: SIBO:0000081
 name: basal angle of mandible
 def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000082
+id: SIBO:0000082
 name: basal tooth of mandible
 def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000083
+id: SIBO:0000083
 name: diastema
 def: "Diastema- See Mandibles" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000084
+id: SIBO:0000084
 name: denticle
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000085
+id: SIBO:0000085
 name: frontal carina
 def: "Frontal carinae- A pair of longitudinal ridges on the head, located dorsally behind the clypeus and between the antennal sockets. They are very variable in the length and strength of development, frequently being short and simple but sometimes extending back to the occipital margin of the head. In some groups the frontal carina are vestigial or absent, but elsewhere they may be strongly developed or form the dorsal margins of extensive antennal scrobes. Commonly the frontal carinae anteriorly are expanded into progecting lobate extensions, the frontal lobes, which partially or entirely cover and conceal the antennal sockets. Frontal lobes may be the only expression of the frontal carinae in some groups. Sometimes the portions of the torulus closets to the cephalic midline is raised and expanded into a small, laterally projecting lobe, which may extend beyond the lateral margin of the frontal carina or lobe." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 synonym: "Frontal lobes" RELATED []
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000086
+id: SIBO:0000086
 name: eye
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000087
+id: SIBO:0000087
 name: fronto-clypeal suture
 def: "Fronto-clypeal suture- The suture forming the posterior margin or boundary of the clypeusl frequently referred to as the posterios clypeal margin." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000088
+id: SIBO:0000088
 name: frontal triangle
 def: "Frontal triangle- A small triangular patch of the cuticle located mediodorsally on the head immediately behind the clypeus and approximately between the antennal sockets or anterior parts of the frontal carinae in many ant taxa." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000089
+id: SIBO:0000089
 name: frontal lobe
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000090
+id: SIBO:0000090
 name: gena
 def: "Gena- Area of front of head bounded in front by the posterior margin of he clypeus, behind by the anterior margin of the eye, and medially by the antennal socket. The gena thus includes part of the cephalic dorsum and the side of the head capsule between the eye and the clypeus." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: adjacent_to ID:0000112 ! head
+relationship: adjacent_to SIBO:0000112 ! head
 
 [Term]
-id: ID:0000091
+id: SIBO:0000091
 name: funiculus of antenna
-relationship: OBO_REL:part_of ID:0000097 ! antenna
+relationship: part_of SIBO:0000097 ! antenna
 
 [Term]
-id: ID:0000092
+id: SIBO:0000092
 name: lateral portion of clypeus
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000093
+id: SIBO:0000093
 name: apical margin of mandible
 def: "Apical margin/tooth- See Mandibles" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000094
+id: SIBO:0000094
 name: basal margin of mandible
 def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000095
+id: SIBO:0000095
 name: external margin of mandible
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000096
+id: SIBO:0000096
 name: median portion of clypeus
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000097
+id: SIBO:0000097
 name: antenna
 def: "Antenna- The antenna in ants consists of an elongate basal segment, the scape, followed distally by 3-11 smaller segments which together constitute the funiculus (=flagellum), giving a total antennal segement count (=antennomere count) of 4 to12. The scape articulates with the head in the antennal socket (=antennal insertion), a foramen located behind the clypeus. The antennal socket itself is enriched by a narrow annular sclerite, the torulus, and may be overhung and concealed by the frontal lobe. At the base of the scape is a ball-like condylar bulb (=articulatory bulb), the part which actually articulates within the socket. Just distal of the condylar bulb is a short constriction of neck, which may be straight or curved, beyond which the scape shaft proper commences. The funicular segments may be filiform or the apical 1-4 may be enlarged to form a club. See also frontal carinae, torulus." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: adjacent_to ID:0000107 ! antennal socket
+relationship: adjacent_to SIBO:0000107 ! antennal socket
 created_by: cdsmith
 creation_date: 2007-10-27T12:34:00Z
 
 [Term]
-id: ID:0000098
+id: SIBO:0000098
 name: occipital margin of head
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000099
+id: SIBO:0000099
 name: scape of antenna
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000100
+id: SIBO:0000100
 name: antennal scrobe
 def: "A groove, impresison, or excavation in the sie of the head, which runs above or below the eye, to accomidate at least the antennal scape, but often the entire antenna, when the latter folded back. Antennal scrobes vary in development form simple broad shallow groves to extensive deep trenches. Antennal scrobes are abesent from most any genera." [Bolton Glossary:<new dbxref> "pdf"]
-relationship: OBO_REL:part_of ID:0000097 ! antenna
+relationship: part_of SIBO:0000097 ! antenna
 
 [Term]
-id: ID:0000101
+id: SIBO:0000101
 name: tooth number
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
-id: ID:0000102
+id: SIBO:0000102
 name: torulus
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000103
+id: SIBO:0000103
 name: trulleum
 is_obsolete: true
 
 [Term]
-id: ID:0000104
+id: SIBO:0000104
 name: anepisternum
-relationship: OBO_REL:part_of ID:0000116 ! mesopleuron
+relationship: part_of SIBO:0000116 ! mesopleuron
 
 [Term]
-id: ID:0000105
+id: SIBO:0000105
 name: mesosoma
 def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 synonym: "alitrunk" RELATED []
-is_a: ID:0000149 ! Anatomical part
+is_a: SIBO:0000149 ! Anatomical part
 
 [Term]
-id: ID:0000106
+id: SIBO:0000106
 name: pollen sac
-is_a: ID:0000149 ! Anatomical part
-relationship: associated_with_behavior ID:0000519 ! pollen foraging
-relationship: is_relevant_for OBO_REL: ! Apis mellifera
+is_a: SIBO:0000149 ! Anatomical part
+relationship: associated_with_behavior SIBO:0000519 ! pollen foraging
+relationship: is_relevant_for NCBITaxon:7460 ! Apis mellifera
 created_by: cdsmith
 creation_date: 2008-06-07T10:38:00Z
 
 [Term]
-id: ID:0000107
+id: SIBO:0000107
 name: antennal socket
 def: "Antennal socket/ insertion- See Antenna" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000108
+id: SIBO:0000108
 name: helcium
 def: "Helcium- The very reduced and specialized presclerites of abdominal segment 3, which form a complex articulation within the posterior foramen of the petiole. In general the helcium is mostly or entirely concealed within the posterior orifice of the petiole, but in certain groups it is partly visible. Disarticulation of abdominal segments 2 and 3 is necessary to examine the structure and its variation in detail. See also Abdomen." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000129 ! waist
+relationship: part_of SIBO:0000129 ! waist
 
 [Term]
-id: ID:0000109
+id: SIBO:0000109
 name: coxa number
 def: "Femur- The third segment of any leg, counting from the basal coxal segment that articulates with the alitrunk. The femur is generally the longest leg segment and is separted from the coxa only by a small segment, the trochanter.\n\nLeg segments- Each leg consists of a basal coax that articulated with the alitrucnk, followed in order by a small trochanter, a long and generally stouct fentur, a tibia, and a tarsus, the last consisting of five small segments and terminating apically in a pair of claws. The prefixes pro-, meso-, and meta-, applied to any of these terms, indicate that segment on the left of a particular thoracic segment." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 synonym: "Leg segments" RELATED []
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000110
+id: SIBO:0000110
 name: gastral segment number
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
-id: ID:0000111
+id: SIBO:0000111
 name: declivity of propodeum
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000112
+id: SIBO:0000112
 name: head
 def: "Clypeus- Anterior sclerite of the dorsal head, bounded posteriorly by the fronto-clypeal suture, which is also very commonly called the posterior clypeal margin or border. The anteriof clypeal margin usually forms the anterior margin of the head in full-face biew (but a projection of the labrum may be anterior to the clypeus in some taxa). The body of the clypeus consists of a pair of lateral portions, or narrow bands of cuticle, on each side of a shield-like median portion. The median portion of the clypeus may be equipped with one or more longitudinal carinae, or may be variously specialized in shape. Posteriorly the median portion of the clypeus may end in form of the antennal sockets/frontal carinae or lobes, or may project backwards between them. In some taxa the clypeus is very reduced and extremely narrow from front to back." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 synonym: "Caphalic" RELATED []
-is_a: ID:0000149 ! Anatomical part
+is_a: SIBO:0000149 ! Anatomical part
 
 [Term]
-id: ID:0000113
+id: SIBO:0000113
 name: gaster
-relationship: OBO_REL:part_of ID:0000140 ! metasoma
+relationship: part_of SIBO:0000140 ! metasoma
 
 [Term]
-id: ID:0000114
+id: SIBO:0000114
 name: mesonotum
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000115
+id: SIBO:0000115
 name: metanotal groove
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000116
+id: SIBO:0000116
 name: mesopleuron
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000117
+id: SIBO:0000117
 name: metapleuron
 synonym: "anepisternum " RELATED []
 synonym: "katepisternum" RELATED []
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000118
+id: SIBO:0000118
 name: orifice of metalpleural gland
-relationship: OBO_REL:part_of ID:0000130 ! promesonotum
+relationship: part_of SIBO:0000130 ! promesonotum
 
 [Term]
-id: ID:0000119
+id: SIBO:0000119
 name: metapleural gland bulla
-relationship: OBO_REL:part_of ID:0000270 ! Metapleural gland
+relationship: part_of SIBO:0000270 ! Metapleural gland
 
 [Term]
-id: ID:0000120
+id: SIBO:0000120
 name: mandible
 def: "Mandibles- The appendages with which ants manipulate their environment. They are very variable in shape, size, and dentition, and extremely important in ant taxonomy. \nMargins- In full-face view, with the mandibles closed, the inner margin or border (closest to an anterior extension of the midline of the head) of each mandibular blade is the apical margin (masticatory margin), and is usually armed with teeth. Proximally, close to the anterior margin of the clypeus, the apical margin usually passes through a basal angle into a transverse or oblique basal margin. The two margins may join through a broad or narrow curve, or meet in an angle or tooth. When the mandibles are narrow of linear, the distinction between the apical and basal margins may be lost by obliteration of the basal angle. The external margin (lateral margin) of each mandible forms its outer border in full-face view and may be straight, sinuate, or convex. \n\nDentition- The aprical margin of each mandible is usually armed with a series of teeth or denticles  (short or very reduced acute teeth) or both, which generally run the length of the apical margin. If teeth alone are present, or a combination of teeth and denticles, the mandible is denate. If only tiny dentricles occur the mandible is denticulate, and if the margin lacks armament it is edentate. A natural gap in a row of teeth is a diastema and an elongate mandible with an uninterrupted series of teeth may be described as serially dentate. Teeth are usually sharp and triangular in shape but may be rounded, long, narrow, and spine-like, or peg-like. Reduced teeth or dentivles that occur between full-sized teeth are intercalary. In general the first, distalmost, or apical tooth, the one farthest away from the anterior clypeal margin, is the largest on the apical margin, although in some taxa medial or basal teeth may be the largest. The tooth at or near of the basal angle is the basal tooth the tooth immediately behind the apical may be termed the preapical, though this term may be" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 synonym: "Apical margin tooth" RELATED []
@@ -782,2903 +778,2903 @@ synonym: "Elonaget Triangular" RELATED []
 synonym: "External margin" RELATED []
 synonym: "Falcate" RELATED []
 synonym: "Linear" RELATED []
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 
 [Term]
-id: ID:0000121
+id: SIBO:0000121
 name: propodeum
 is_obsolete: true
 
 [Term]
-id: ID:0000122
+id: SIBO:0000122
 name: pronotum
 def: "Pronotum- See Tergite" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000123
+id: SIBO:0000123
 name: peduncle of petiole
-relationship: OBO_REL:part_of ID:0000126 ! petiole
+relationship: part_of SIBO:0000126 ! petiole
 
 [Term]
-id: ID:0000124
+id: SIBO:0000124
 name: promesonotal suture
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000125
+id: SIBO:0000125
 name: propodeal lobe
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000126
+id: SIBO:0000126
 name: petiole
 def: "Petiole- The second abdominal segment immediately following the alitrunk, which is usually reduced and always isolated. Generally the petiole takes the form of a node or of a scale of varying shape and size, but in some taxa it may be very reduced, represented by only a narrow, subcylindrical segment that may be overhung and concealed by the gaster. The petiole bears the second abdominal spiracle and usually consists of a distinct tergite and sternite. The former may have differentiated laterotergites low down on the side. In some groups the petiolar tergite and sternite have fused together. See also Abdomen, Peduncle." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 synonym: "subsessile" RELATED []
-relationship: OBO_REL:part_of ID:0000129 ! waist
+relationship: part_of SIBO:0000129 ! waist
 
 [Term]
-id: ID:0000127
+id: SIBO:0000127
 name: tergite
-relationship: OBO_REL:part_of ID:0000113 ! gaster
-relationship: OBO_REL:part_of ID:0000496 ! abdominal segment number 3
-relationship: OBO_REL:part_of ID:0000497 ! abdominal segment number 4
+relationship: part_of SIBO:0000113 ! gaster
+relationship: part_of SIBO:0000496 ! abdominal segment number 3
+relationship: part_of SIBO:0000497 ! abdominal segment number 4
 
 [Term]
-id: ID:0000128
+id: SIBO:0000128
 name: postperiole
 is_obsolete: true
 
 [Term]
-id: ID:0000129
+id: SIBO:0000129
 name: waist
-relationship: OBO_REL:part_of ID:0000140 ! metasoma
+relationship: part_of SIBO:0000140 ! metasoma
 
 [Term]
-id: ID:0000130
+id: SIBO:0000130
 name: promesonotum
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000131
+id: SIBO:0000131
 name: propleuron
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000132
+id: SIBO:0000132
 name: spiracle
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000133
+id: SIBO:0000133
 name: sternite
-is_a: ID:0000149 ! Anatomical part
-relationship: OBO_REL:part_of ID:0000496 ! abdominal segment number 3
-relationship: OBO_REL:part_of ID:0000497 ! abdominal segment number 4
+is_a: SIBO:0000149 ! Anatomical part
+relationship: part_of SIBO:0000496 ! abdominal segment number 3
+relationship: part_of SIBO:0000497 ! abdominal segment number 4
 
 [Term]
-id: ID:0000134
+id: SIBO:0000134
 name: pygidium
 is_obsolete: true
 
 [Term]
-id: ID:0000135
+id: SIBO:0000135
 name: girdling constriction
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
-id: ID:0000136
+id: SIBO:0000136
 name: alitrunk
 def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." [XX:<new dbxref>, XX:<new dbxref> "bolton", XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 is_obsolete: true
 
 [Term]
-id: ID:0000137
+id: SIBO:0000137
 name: sting
-relationship: associated_with_behavior ID:0000233 ! Attack
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: associated_with_behavior SIBO:0000233 ! Attack
+relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
-id: ID:0000138
+id: SIBO:0000138
 name: tooth number 2
-is_a: ID:0000101 ! tooth number
+is_a: SIBO:0000101 ! tooth number
 created_by: ilma
 creation_date: 2007-12-20T02:16:00Z
 
 [Term]
-id: ID:0000139
+id: SIBO:0000139
 name: subpetiolar process
-relationship: OBO_REL:part_of ID:0000495 ! abdominal segment number 2
+relationship: part_of SIBO:0000495 ! abdominal segment number 2
 
 [Term]
-id: ID:0000140
+id: SIBO:0000140
 name: metasoma
-is_a: ID:0000149 ! Anatomical part
+is_a: SIBO:0000149 ! Anatomical part
 
 [Term]
-id: ID:0000141
+id: SIBO:0000141
 name: hypopygium
 def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
-id: ID:0000142
+id: SIBO:0000142
 name: presclerite
 def: "Presclerite- A distinctly differentiated anterior section of an abdominal sclerite, separated from the remainder of the sclerite by a ridge, constriction, or both. In the ant abdomen it is usual for the posterior portion of each sclerite to overlap the anterior portion of the following segment. The overlapped area usually lacks sculpture and pilosity, but the absence of these features alone does not constitute a presclerite. Presclerite derived from tergites are termed pretergites, those from sternites, presternites. The remainder of each sclerite, posterior to these developments, is the postsclerite and may be termed posttergite and poststernite, respectively. The presclerites of abdominal segment 3 form a very specialized articulateio with the posterior end of abdominal segment 2, termed the helicum." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
-id: ID:0000143
+id: SIBO:0000143
 name: Semiochemical
 def: "Natural chemicals released by an organism that affect the behaviors of other individuals" [WP:\:http\://en.wikipedia.org/wiki/Semiochemical "http://en.wikipedia.org/wiki/Semiochemical", XX:<new dbxref>]
-is_a: ID:0000479 ! Chemical
+is_a: SIBO:0000479 ! Chemical
 
 [Term]
-id: ID:0000144
+id: SIBO:0000144
 name: R-dodecan-2-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000322 ! Crematogaster castanea
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000322 ! Crematogaster castanea
 
 [Term]
-id: ID:0000145
+id: SIBO:0000145
 name: Defense
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 
 [Term]
-id: ID:0000146
+id: SIBO:0000146
 name: Feeding
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 
 [Term]
-id: ID:0000147
+id: SIBO:0000147
 name: Behavior
 
 [Term]
-id: ID:0000148
+id: SIBO:0000148
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000149
+id: SIBO:0000149
 name: Anatomical part
 
 [Term]
-id: ID:0000150
+id: SIBO:0000150
 name: Hydrocarbons
 def: "Compounds consisting of carbon and hydrogen only." [CHEBI:24632 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000151
+id: SIBO:0000151
 name: Brood Care
-is_a: ID:0000147 ! Behavior
-relationship: associated_with_behavior ID:0000442 ! Recruitment
+is_a: SIBO:0000147 ! Behavior
+relationship: associated_with_behavior SIBO:0000442 ! Recruitment
 
 [Term]
-id: ID:0000152
+id: SIBO:0000152
 name: Foraging
 def: "Foraging is an individual behavior that creates emergent patterns. Depends on resource availability, travel time, conflict with neighbors and predators. Return of patrollers determines whether the forgers will be active at all that day." [XX:0003-0147/2003/16205-20398 "Gordon, Deborah. American Naturalist: Optimization, Conflict, and Nonoverlapping Foraging Rangers in Ants. Dec. 2007"]
-is_a: ID:0000147 ! Behavior
-relationship: associated_with_behavior ID:0000146 ! Feeding
-relationship: precedes ID:0000146 ! Feeding
+is_a: SIBO:0000147 ! Behavior
+relationship: associated_with_behavior SIBO:0000146 ! Feeding
+relationship: precedes SIBO:0000146 ! Feeding
 
 [Term]
-id: ID:0000153
+id: SIBO:0000153
 name: Grooming
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 
 [Term]
-id: ID:0000154
+id: SIBO:0000154
 name: Mating Flight
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 
 [Term]
-id: ID:0000155
+id: SIBO:0000155
 name: Nest Care
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 
 [Term]
-id: ID:0000156
+id: SIBO:0000156
 name: tooth number 3
-is_a: ID:0000101 ! tooth number
+is_a: SIBO:0000101 ! tooth number
 created_by: ilma
 creation_date: 2007-12-20T02:16:00Z
 
 [Term]
-id: ID:0000157
+id: SIBO:0000157
 name: tooth number 4
-is_a: ID:0000101 ! tooth number
+is_a: SIBO:0000101 ! tooth number
 created_by: ilma
 creation_date: 2007-12-20T02:17:00Z
 
 [Term]
-id: ID:0000158
+id: SIBO:0000158
 name: <antennal scrobe>
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T02:18:00Z
 
 [Term]
-id: ID:0000159              80
+id: SIBO:0000159              80
 name: Carboxylic acids
 def: "Oxoacids having the structure RC=(=O)OH. The term is used as a suffix in systematic name function to denote the -C(=O)OH group including its carbon atom." [CHEBI:33575 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000160
+id: SIBO:0000160
 name: S-octan-3-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000322 ! Crematogaster castanea
-relationship: is_relevant_for ID:0000351 ! Crematogaster liengmei
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000322 ! Crematogaster castanea
+relationship: is_relevant_for SIBO:0000351 ! Crematogaster liengmei
 
 [Term]
-id: ID:0000161
+id: SIBO:0000161
 name: Cyclic ketone
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000162
+id: SIBO:0000162
 name: Esters
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000163
+id: SIBO:0000163
 name: Nitrogen Heterocycle
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000164
+id: SIBO:0000164
 name: Queen Substance
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000165
+id: SIBO:0000165
 name: Sulphur Compound
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000166
+id: SIBO:0000166
 name: Terpenoid Compound
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000167
+id: SIBO:0000167
 name: 13-Methylheptacosane
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: 13-Methylheptacosane.\nSource of Standard: Ant extraction.\nSample Type-2: Silica gel in plastic tray or Petri dish.\nAnalysis Method-2: Pentane extraction w/o derivatization.\nCompound Name-2: 13-Methylheptacosane.\nSource of Standard-2: Ant extraction.\nSample Type-3: Silica gel in bottles or vials.\nAnalysis Method-3: Pyridiene extraction w/o derivatization.\nCompound Name-3: 13-Methylheptacosane\nSource of Standard-3: Ant extraction.
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000168
+id: SIBO:0000168
 name: 3-Methylheptacosane
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: 3-Methylheptacosane.\nSource of Standard: Ant extraction.\nSample Type-2: Silica gel in plastic tray or Petri dish.\nAnalysis Method-2: Pentane extraction w/o derivatization.\nCompound Name-2: 3-Methylheptacosane.\nSource of Standard-2: Ant extraction.\nSample Type-3: Silica gel in bottles or vials.\nAnalysis Method-3: Pyridiene extraction w/o derivatization.\nCompound Name-3: 3-Methylheptacosane\nSource of Standard-3: Ant extraction.
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000169
+id: SIBO:0000169
 name: 13, 15-Dimethylheptacosane
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: 13a, 15-Dimethylheptacosane.\nSource of Standard: Ant extraction.\nSample Type-2: Silica gel in plastic tray or Petri dish.\nAnalysis Method-2: Pentane extraction w/o derivatization.\nCompound Name-2: 13, 15-Dimethylheptacosane.\nSource of Standard-2: Ant extraction.\nSample Type-3: Silica gel in bottles or vials.\nAnalysis Method-3: Pyridiene extraction w/o derivatization.\nCompound Name-3: 13, 15-Dimethylheptacosane\nSource of Standard-3: Ant extraction.
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000170
+id: SIBO:0000170
 name: n-Heptacosane
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: n-Heptacosane.\nSource of Standard: Ant extraction.\nSample Type-2: Silica gel in plastic tray or Petri dish.\nAnalysis Method-2: Pentane extraction w/o derivatization.\nCompound Name-2: n-Heptacosane\nSource of Standard-2: Ant extraction.\nSample Type-3: Silica gel in bottles or vials.\nAnalysis Method-3: Pyridiene extraction w/o derivatization.\nCompound Name-3: n-Heptacosane\nSource of Standard-3: Ant extraction.
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000171
+id: SIBO:0000171
 name: Benzoic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:30746 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Benzoic acid.\nSource of Standard: Sigma-Aldrich.
 synonym: "Benzenecarboxylic acid" RELATED [KEGG COMPOUND:c00180 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:c00180"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000172
+id: SIBO:0000172
 name: Malic Acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [CHEBI:6650 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Malic Acid.\nSource of Standard: Sigma-Aldrich.
 synonym: "hydroxybutanedioic acid" RELATED [KEGG COMPOUND:c00711 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:C00711"]
-is_a: ID:0000176 ! Dicarboxylic acid
+is_a: SIBO:0000176 ! Dicarboxylic acid
 
 [Term]
-id: ID:0000173
+id: SIBO:0000173
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000174
+id: SIBO:0000174
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000175
+id: SIBO:0000175
 name: Malonic Acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:30794 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Malonic Acid.\nSource of Standard: Alfa Aesar.\nSample Type-2: Silica gel in bottles or vials\nAnalysis Method-2: Water extracton with derivatization.\nCompound Name-2: Malonic Acid\nSource of Standard-2: Sigma-Aldrich.
 synonym: "Propanedioic acid" EXACT [KEGG COMPOUND:c00383 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:c00383"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000176
+id: SIBO:0000176
 name: Dicarboxylic acid
 def: "Oxoacids containing two carboxy groups." [ChEBI:35692 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000177
+id: SIBO:0000177
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000178
+id: SIBO:0000178
 name: Organic Acids
 def: "Profile of ant-derived compounds in silica gel nesting material." [Chebi:434 "www.chebi.com"]
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
 
 [Term]
-id: ID:0000179
+id: SIBO:0000179
 name: Uric acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:17775 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Uric acid.\nSource of Standard: MP Biomedicals, Inc.
 synonym: "2,6,8-trioxopurine" RELATED [NIST Chemistry WebBook:69-93-2 "http://webbook.nist.gov/cgi/cbook.cgi?ID=69-93-2"]
 synonym: "Urate" RELATED [KEGG COMPOUND:c00366 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:C00366"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000180
+id: SIBO:0000180
 name: Gluconic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:24266 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Gluconic acid.\nSource of Standard: Sigma-Aldrich.
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000181
+id: SIBO:0000181
 name: Azelaic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Azelaic acid.\nSource of Standard: Sigma-Aldrich.
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000182
+id: SIBO:0000182
 name: Stearic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis", XX:28842 "http://www.ebi.ac.uk/chebi/"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Stearic acid.\nSource of Standard: Sigma-Aldrich.
 synonym: "Octadecanoic acid" EXACT [KEGG COMPOUND:c01530 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:c01530"]
 synonym: "octadecoic acid" EXACT [ChEBI:28842 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000183
+id: SIBO:0000183
 name: Hexadecanoic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:15756 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Hexadecanoic acid.\nSource of Standard: Sigma-Aldrich.
 synonym: "palmitic acid" EXACT [ChEBI:15756 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000178 ! Organic Acids
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000459 ! Solenopsis conjurata
+is_a: SIBO:0000178 ! Organic Acids
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000459 ! Solenopsis conjurata
 
 [Term]
-id: ID:0000184
+id: SIBO:0000184
 name: Undecyl acetate
 comment: Glandular Source:Dufour's.
-is_a: ID:0000162 ! Esters
+is_a: SIBO:0000162 ! Esters
 
 [Term]
-id: ID:0000185
+id: SIBO:0000185
 name: Suberic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Suberic acid.\nSource of Standard: Sigma-Aldrich.
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000186
+id: SIBO:0000186
 name: Aspartic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:22660 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Aspartic acid.\nSource of Standard: Sigma-Aldrich.
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000187
+id: SIBO:0000187
 name: 3-Methylglutaric acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: 3-Methylglutaric acid.\nSource of Standard: MP Biomedicals, Inc.
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000188
+id: SIBO:0000188
 name: Methylmaleic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:17626 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Methylmaleic acid.\nSource of Standard: Sigma-Aldrich.
 synonym: "Citraconic acid" EXACT [KEGG COMPOUND:c02226 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:c02226"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000189
+id: SIBO:0000189
 name: Phosphoric acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:26078 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Phosphoric acid.\nSource of Standard: Sigma-Aldrich.\nSample Type-2: Silica gel in bottles or vials\nAnalysis Method-2: Water extracton with derivatization.\nCompound Name-2: Phosphoric acid.\nSource of Standard-2: Sigma-Aldrich.
 synonym: "orthophosphoric acid" RELATED [NIST Chemistry WebBook:7664-38-2 "http://webbook.nist.gov/cgi/cbook.cgi?ID=7664-38-2"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000190
+id: SIBO:0000190
 name: Lactic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:28358 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Lactic acid.\nSource of Standard: Sigma-Aldrich.\nSample Type-2: Silica gel in bottles or vials\nAnalysis Method-2: Water extracton with derivatization.\nCompound Name-2: Lactic acid.\nSource of Standard-2: Sigma-Aldrich.
 synonym: "2-Hydroxypropanoic acid" RELATED [KEGG COMPOUND:c01432 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:c01432"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000191
+id: SIBO:0000191
 name: n-Undecane
 comment: Glandular Source:Dufour's.
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000192
+id: SIBO:0000192
 name: Venom Alkaloids
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000193
+id: SIBO:0000193
 name: Succinic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:15741 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Succinic acid.\nSource of Standard: MP Biomedicals, Inc.
 synonym: "amber acid" RELATED [nist chemistry webbook:110-15-6 "http://webbook.nist.gov/cgi/cbook.cgi?ID=110-15-6"]
-is_a: ID:0000178 ! Organic Acids
+is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
-id: ID:0000194
+id: SIBO:0000194
 name: trans-2-methyl-6-(cis-4-tridecenyl)piperidine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:18049 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel in bottles or vials.\nAnalysis Method: Pyridine extraction w/o derivatization.\nCompound Name: trans-2-methyl-6-(cis-4-tridecenyl)piperidine.\nSource of Standard: Ant extraction.
-is_a: ID:0000192 ! Venom Alkaloids
+is_a: SIBO:0000192 ! Venom Alkaloids
 
 [Term]
-id: ID:0000195
+id: SIBO:0000195
 name: trans-2-methyl-6-n-pentadecylpiperidine
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel in bottles or vials.\nAnalysis Method: Pyridine extraction w/o derivatization.\nCompound Name: trans-2-methyl-6-n-pentadecylpiperidine.\nSource of Standard: Ant extraction.
-is_a: ID:0000192 ! Venom Alkaloids
+is_a: SIBO:0000192 ! Venom Alkaloids
 
 [Term]
-id: ID:0000196
+id: SIBO:0000196
 name: trans-2-methyl-6-(cis-6-pentadecenyl)piperidine
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel in bottles or vials.\nAnalysis Method: Pyridine extraction w/o derivatization.\nCompound Name: trans-2-methyl-6-(cis-6-pentadecenyl)piperidine.\nSource of Standard: Ant extraction.
-is_a: ID:0000192 ! Venom Alkaloids
+is_a: SIBO:0000192 ! Venom Alkaloids
 
 [Term]
-id: ID:0000197
+id: SIBO:0000197
 name: trans-2-methyl-6-n-tridecylpiperidine
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel in bottles or vials.\nAnalysis Method: Pyridine extraction w/o derivatization.\nCompound Name: trans-2-methyl-6-n-tridecylpiperidine.\nSource of Standard: Ant extraction.
-is_a: ID:0000192 ! Venom Alkaloids
+is_a: SIBO:0000192 ! Venom Alkaloids
 
 [Term]
-id: ID:0000198
+id: SIBO:0000198
 name: Amino Acids
 def: "Carboxylic acids containing one or more amino groups." [CHEBI:33709 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000199
+id: SIBO:0000199
 name: Alanine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:16449 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Alanine.\nSource of Standard: Sigma-Aldrich.
 synonym: "Alanin" EXACT [ChEBI:16449 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000200
+id: SIBO:0000200
 name: Glycine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:15428 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Glycine.\nSource of Standard: Sigma-Aldrich.
 synonym: "aminoethanoic acid" EXACT [ChEBI:15428 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000201
+id: SIBO:0000201
 name: Serine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:17822 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Serine.\nSource of Standard: Sigma-Aldrich.
 synonym: "Serin" EXACT [ChEBI:17822 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000202
+id: SIBO:0000202
 name: N-acetylglycine
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis", mp biomedicals:100085 "http://www.mpbio.com/product_info.php?cPath=491_1_12&products_id=100085&depth=nested&keywords=100085"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: N-acetylglycine.\nSource of Standard: MP Biomedicals, Inc.
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000203
+id: SIBO:0000203
 name: Threonine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:26986 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name:Threonine.\nSource of Standard: Sigma-Aldrich.
 synonym: "Threonin" EXACT [ChEBI:26986 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000204
+id: SIBO:0000204
 name: Glutamine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:28300 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Glutamine.\nSource of Standard: Sigma-Aldrich.
 synonym: "2-Aminoglutaramin acid" EXACT [KEGG COMPOUND:c00303 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:c00303"]
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000205
+id: SIBO:0000205
 name: Phenylalanine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:28044 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Phenylalanine.\nSource of Standard: Sigma-Aldrich.
 synonym: "alpha-Amino-beta-phenylpropionic acid" EXACT [KEGG COMPOUND:c02057 "http://www.genome.ad.jp/dbget-bin/www_bget?cpd:C02057"]
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000206
+id: SIBO:0000206
 name: Tyrosine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:18186 "http://www.ebi.ac.uk/chebi/", DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Tyrosine.\nSource of Standard: Sigma-Aldrich.
 synonym: "Tyrosin" EXACT [ChEBI:18186 "http://www.ebi.ac.uk/chebi/"]
-is_a: ID:0000198 ! Amino Acids
+is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
-id: ID:0000207
+id: SIBO:0000207
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000208
+id: SIBO:0000208
 name: n-Decane
 comment: Glandular Source:Dufour's.
 is_obsolete: true
 
 [Term]
-id: ID:0000209
+id: SIBO:0000209
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000210
+id: SIBO:0000210
 name: 2,6-Dimethyl-3-propylpyrazine
 comment: Glandular Source:Mandibular.
-is_a: ID:0000163 ! Nitrogen Heterocycle
+is_a: SIBO:0000163 ! Nitrogen Heterocycle
 
 [Term]
-id: ID:0000211
+id: SIBO:0000211
 name: 2,6-Dimethyl-3-pentylpyrazine
 comment: Glandular Source:Mandibular.
-is_a: ID:0000163 ! Nitrogen Heterocycle
+is_a: SIBO:0000163 ! Nitrogen Heterocycle
 
 [Term]
-id: ID:0000212
+id: SIBO:0000212
 name: 2.6-Dimethyl-3-ethylpyrazine
 comment: Glandular Source:Mandibular.
-is_a: ID:0000163 ! Nitrogen Heterocycle
+is_a: SIBO:0000163 ! Nitrogen Heterocycle
 
 [Term]
-id: ID:0000213
+id: SIBO:0000213
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000214
+id: SIBO:0000214
 name: 2,5-Dimethyl-3-isopentylpyrazine
 comment: Glandular Source:Mandibular.
-is_a: ID:0000163 ! Nitrogen Heterocycle
+is_a: SIBO:0000163 ! Nitrogen Heterocycle
 
 [Term]
-id: ID:0000215
+id: SIBO:0000215
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000216
+id: SIBO:0000216
 name: Sulphur compounds
 is_obsolete: true
 
 [Term]
-id: ID:0000217
+id: SIBO:0000217
 name: Dimethyl trisulphide
 comment: Glandular Source:Mandibular.
-is_a: ID:0000165 ! Sulphur Compound
+is_a: SIBO:0000165 ! Sulphur Compound
 
 [Term]
-id: ID:0000218
+id: SIBO:0000218
 name: Dimethyl disulphide
 comment: Glandular Source:Mandibular.
-is_a: ID:0000165 ! Sulphur Compound
+is_a: SIBO:0000165 ! Sulphur Compound
 
 [Term]
-id: ID:0000219
+id: SIBO:0000219
 name: Geranoil
 comment: man.
-is_a: ID:0000166 ! Terpenoid Compound
+is_a: SIBO:0000166 ! Terpenoid Compound
 
 [Term]
-id: ID:0000220
+id: SIBO:0000220
 name: Citral
 comment: man.
-is_a: ID:0000166 ! Terpenoid Compound
+is_a: SIBO:0000166 ! Terpenoid Compound
 
 [Term]
-id: ID:0000221
+id: SIBO:0000221
 name: Dendrolasin
 comment: man.
-is_a: ID:0000166 ! Terpenoid Compound
+is_a: SIBO:0000166 ! Terpenoid Compound
 
 [Term]
-id: ID:0000222
+id: SIBO:0000222
 name: Citronellal
 comment: man.
-is_a: ID:0000166 ! Terpenoid Compound
+is_a: SIBO:0000166 ! Terpenoid Compound
 
 [Term]
-id: ID:0000223
+id: SIBO:0000223
 name: Limonene
 comment: posion.
-is_a: ID:0000166 ! Terpenoid Compound
+is_a: SIBO:0000166 ! Terpenoid Compound
 
 [Term]
-id: ID:0000224
+id: SIBO:0000224
 name: Nerol
 comment: man.
-is_a: ID:0000166 ! Terpenoid Compound
+is_a: SIBO:0000166 ! Terpenoid Compound
 
 [Term]
-id: ID:0000225
+id: SIBO:0000225
 name: Allomones
 def: "Chemical substances that benifits the emitter but not the reciever (e.g. venom secreted by social wasps)." [El-Sayed AM. The Pherobase:Database of Insect Phermones and Semiochemicals "http://www.pherobase.com/guide.htm"]
-is_a: ID:0000251 ! Allelochemics
+is_a: SIBO:0000251 ! Allelochemics
 
 [Term]
-id: ID:0000226
+id: SIBO:0000226
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000227
+id: SIBO:0000227
 name: Synomones
 def: "Chemicals that mediate interaction, benefits both the receiver and the emitter." [El-Sayed AM. The Pherobase:Database of Insect Phermones and Semiochemicals "http://www.pherobase.com/guide.htm"]
-is_a: ID:0000251 ! Allelochemics
+is_a: SIBO:0000251 ! Allelochemics
 
 [Term]
-id: ID:0000228
+id: SIBO:0000228
 name: Attractant
 def: "Chemicals that are not naturally produced by the organism but found to be attractive in either field or laboratory experiments." [El-Sayed AM. The Pherobase:Database of Insect Phermones and Semiochemicals "http://www.pherobase.com/guide.htm"]
-is_a: ID:0000251 ! Allelochemics
+is_a: SIBO:0000251 ! Allelochemics
 
 [Term]
-id: ID:0000229
+id: SIBO:0000229
 name: Kairomones
 def: "Chemical substances that benefits the emitter but not the reciever (e.g. host location by beneficial insects)." [El-Sayed AM. The Pherobase:Database of Insect Phermones and Semiochemicals "http://www.pherobase.com/guide.htm"]
-is_a: ID:0000251 ! Allelochemics
+is_a: SIBO:0000251 ! Allelochemics
 
 [Term]
-id: ID:0000230
+id: SIBO:0000230
 name: Alarm
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 
 [Term]
-id: ID:0000231
+id: SIBO:0000231
 name: Foraging/ Patrolling path
-is_a: ID:0000147 ! Behavior
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
+is_a: SIBO:0000147 ! Behavior
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
 created_by: ilma
 creation_date: 2008-04-02T01:48:00Z
 
 [Term]
-id: ID:0000232
+id: SIBO:0000232
 name: Dispersal
-relationship: associated_with_behavior ID:0000152 ! Foraging
+relationship: associated_with_behavior SIBO:0000152 ! Foraging
 
 [Term]
-id: ID:0000233
+id: SIBO:0000233
 name: Attack
-is_a: ID:0000147 ! Behavior
-relationship: precedes ID:0000075 ! Disengagement
+is_a: SIBO:0000147 ! Behavior
+relationship: precedes SIBO:0000075 ! Disengagement
 
 [Term]
-id: ID:0000234
+id: SIBO:0000234
 name: Aphaenogaster miamiana
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000235
+id: SIBO:0000235
 name: Aphaenogaster cockerelli
 is_obsolete: true
 
 [Term]
-id: ID:0000236
+id: SIBO:0000236
 name: Aphaenogaster fulva
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000237
+id: SIBO:0000237
 name: Aphaenogaster subterranea
-is_a: ID:0000477 ! Species
-relationship: is_relevant_for ID:0000248 ! Atta bisphaerica
+is_a: SIBO:0000477 ! Species
+relationship: is_relevant_for SIBO:0000248 ! Atta bisphaerica
 
 [Term]
-id: ID:0000238
+id: SIBO:0000238
 name: Aphaenogaster senilis
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000239
+id: SIBO:0000239
 name: Aphaenogaster rudis
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000240
+id: SIBO:0000240
 name: Aphaenogaster tennesseensis
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000241
+id: SIBO:0000241
 name: Aphaenogaster cockerelli
 is_obsolete: true
 
 [Term]
-id: ID:0000242
+id: SIBO:0000242
 name: Aphaenogaster albisetosus
 is_obsolete: true
 
 [Term]
-id: ID:0000243
+id: SIBO:0000243
 name: antennal scrobe
 synonym: "Antennomere" RELATED []
 synonym: "Club" RELATED []
 synonym: "Condylar Bulb" RELATED []
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 created_by: ilma
 creation_date: 2007-12-20T02:20:00Z
 
 [Term]
-id: ID:0000244
+id: SIBO:0000244
 name: Aphaenogaster cockerelli
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000245
+id: SIBO:0000245
 name: Aphaenogaster albisetosus
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000246
+id: SIBO:0000246
 name: Atta cephalotes
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000247
+id: SIBO:0000247
 name: Atta capiguara
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000248
+id: SIBO:0000248
 name: Atta bisphaerica
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000249
+id: SIBO:0000249
 name: Atta colombica
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000250
+id: SIBO:0000250
 name: Atta laevigata
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000251
+id: SIBO:0000251
 name: Allelochemics
-is_a: ID:0000479 ! Chemical
+is_a: SIBO:0000479 ! Chemical
 
 [Term]
-id: ID:0000252
+id: SIBO:0000252
 name: Antennation
-is_a: ID:0000147 ! Behavior
-relationship: precedes ID:0000233 ! Attack
-relationship: precedes ID:0000439 ! Recognition
+is_a: SIBO:0000147 ! Behavior
+relationship: precedes SIBO:0000233 ! Attack
+relationship: precedes SIBO:0000439 ! Recognition
 
 [Term]
-id: ID:0000253
+id: SIBO:0000253
 name: 4Sme-7-3Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000244 ! Aphaenogaster cockerelli
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000318 ! Atta texana
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000244 ! Aphaenogaster cockerelli
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
 
 [Term]
-id: ID:0000254
+id: SIBO:0000254
 name: Cephalic gland
-is_a: ID:0000256 ! Semiochemical gland
+is_a: SIBO:0000256 ! Semiochemical gland
 
 [Term]
-id: ID:0000255
+id: SIBO:0000255
 name: Pygidial gland
-is_a: ID:0000256 ! Semiochemical gland
+is_a: SIBO:0000256 ! Semiochemical gland
 
 [Term]
-id: ID:0000256
+id: SIBO:0000256
 name: Semiochemical gland
-is_a: ID:0000149 ! Anatomical part
+is_a: SIBO:0000149 ! Anatomical part
 
 [Term]
-id: ID:0000257
+id: SIBO:0000257
 name: Anabaseine
 def: "Anabaseine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000236 ! Aphaenogaster fulva
-relationship: is_relevant_for ID:0000237 ! Aphaenogaster subterranea
-relationship: is_relevant_for ID:0000238 ! Aphaenogaster senilis
-relationship: is_relevant_for ID:0000239 ! Aphaenogaster rudis
-relationship: is_relevant_for ID:0000240 ! Aphaenogaster tennesseensis
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000236 ! Aphaenogaster fulva
+relationship: is_relevant_for SIBO:0000237 ! Aphaenogaster subterranea
+relationship: is_relevant_for SIBO:0000238 ! Aphaenogaster senilis
+relationship: is_relevant_for SIBO:0000239 ! Aphaenogaster rudis
+relationship: is_relevant_for SIBO:0000240 ! Aphaenogaster tennesseensis
 
 [Term]
-id: ID:0000258
+id: SIBO:0000258
 name: Mandibular gland
-is_a: ID:0000256 ! Semiochemical gland
+is_a: SIBO:0000256 ! Semiochemical gland
 
 [Term]
-id: ID:0000259
+id: SIBO:0000259
 name: Poison gland
-is_a: ID:0000256 ! Semiochemical gland
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000137 ! sting
+is_a: SIBO:0000256 ! Semiochemical gland
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000137 ! sting
 
 [Term]
-id: ID:0000260
+id: SIBO:0000260
 name: 1R-phenylethanol
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000244 ! Aphaenogaster cockerelli
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000244 ! Aphaenogaster cockerelli
 
 [Term]
-id: ID:0000261
+id: SIBO:0000261
 name: Dufour's gland
 def: "Patrollers influence foraging direction by depositing chemical secretions on the nest mound. Scout the nest mound with their abdomens tucked under their bodies (Gordon 1991). The secretions from the poison gland and the Dufour's gland exit from the stinger apparatus located in the abdomen. Dufour's gland secretions have been implicated in a variety of functions, including being territorial markers and propaganda pheromones used by parasitic ants. In Pogonomyrmex, Dufour's gland contents are composed mainly of species-specific blends of hydrocarbons. Poison gland secretions have been shown to act as sex pheromones and trail pheromones in ants." [XX:DOI\: 10.1086/522843 "Gordon, Deborah. American Naturalist: Natural History Note. July 2007"]
-is_a: ID:0000256 ! Semiochemical gland
-is_a: ID:0000527 ! Trail Discrimination
-relationship: associated_with_behavior ID:0000525 ! Patrolling
+is_a: SIBO:0000256 ! Semiochemical gland
+is_a: SIBO:0000527 ! Trail Discrimination
+relationship: associated_with_behavior SIBO:0000525 ! Patrolling
 
 [Term]
-id: ID:0000262
+id: SIBO:0000262
 name: Ethyl phenylacetate
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
 
 [Term]
-id: ID:0000263
+id: SIBO:0000263
 name: 2,3-bipyridyl
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000239 ! Aphaenogaster rudis
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000239 ! Aphaenogaster rudis
 
 [Term]
-id: ID:0000264
+id: SIBO:0000264
 name: methyl anthranilate
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000236 ! Aphaenogaster fulva
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000236 ! Aphaenogaster fulva
 
 [Term]
-id: ID:0000265
+id: SIBO:0000265
 name: isopentyl-2-phenylethylamine
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000239 ! Aphaenogaster rudis
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000239 ! Aphaenogaster rudis
 
 [Term]
-id: ID:0000266
+id: SIBO:0000266
 name: Anabasine
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000234 ! Aphaenogaster miamiana
-relationship: is_relevant_for ID:0000237 ! Aphaenogaster subterranea
-relationship: is_relevant_for ID:0000239 ! Aphaenogaster rudis
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000234 ! Aphaenogaster miamiana
+relationship: is_relevant_for SIBO:0000237 ! Aphaenogaster subterranea
+relationship: is_relevant_for SIBO:0000239 ! Aphaenogaster rudis
 
 [Term]
-id: ID:0000267
+id: SIBO:0000267
 name: bornylene
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000248 ! Atta bisphaerica
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000248 ! Atta bisphaerica
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
 
 [Term]
-id: ID:0000268
+id: SIBO:0000268
 name: 4me-7-3Kt
 def: "4me-7-3Kt." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000248 ! Atta bisphaerica
-relationship: is_relevant_for ID:0000249 ! Atta colombica
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000300 ! Atta robusta
-relationship: is_relevant_for ID:0000302 ! Atta opaciceps
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000318 ! Atta texana
-relationship: is_relevant_for ID:0000396 ! Pogonomyrmex occidentalis
-relationship: is_relevant_for ID:0000398 ! Pogonomyrmex badius
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000401 ! Pogonomyrmex californicus
-relationship: is_relevant_for ID:0000403 ! Pogonomyrmex desertorum
-relationship: is_relevant_for ID:0000436 ! Pogonomyrmex salinus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000248 ! Atta bisphaerica
+relationship: is_relevant_for SIBO:0000249 ! Atta colombica
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000300 ! Atta robusta
+relationship: is_relevant_for SIBO:0000302 ! Atta opaciceps
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
+relationship: is_relevant_for SIBO:0000396 ! Pogonomyrmex occidentalis
+relationship: is_relevant_for SIBO:0000398 ! Pogonomyrmex badius
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000401 ! Pogonomyrmex californicus
+relationship: is_relevant_for SIBO:0000403 ! Pogonomyrmex desertorum
+relationship: is_relevant_for SIBO:0000436 ! Pogonomyrmex salinus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000269
+id: SIBO:0000269
 name: Sternal gland
-is_a: ID:0000256 ! Semiochemical gland
+is_a: SIBO:0000256 ! Semiochemical gland
 
 [Term]
-id: ID:0000270
+id: SIBO:0000270
 name: Metapleural gland
-is_a: ID:0000256 ! Semiochemical gland
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+is_a: SIBO:0000256 ! Semiochemical gland
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000271
+id: SIBO:0000271
 name: 7-2Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000247 ! Atta capiguara
-relationship: is_relevant_for ID:0000248 ! Atta bisphaerica
-relationship: is_relevant_for ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000302 ! Atta opaciceps
-relationship: is_relevant_for ID:0000318 ! Atta texana
-relationship: is_relevant_for ID:0000347 ! Crematogaster laboriosa
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000247 ! Atta capiguara
+relationship: is_relevant_for SIBO:0000248 ! Atta bisphaerica
+relationship: is_relevant_for SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000302 ! Atta opaciceps
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
+relationship: is_relevant_for SIBO:0000347 ! Crematogaster laboriosa
 
 [Term]
-id: ID:0000272
+id: SIBO:0000272
 name: 2-phenylacetic acid
 def: "2-phenylacetic acid." [CHEBI:30745 "http://www.ebi.ac.uk/chebi/", The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: derived_from ID:0000270 ! Metapleural gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000248 ! Atta bisphaerica
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: derived_from SIBO:0000270 ! Metapleural gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000248 ! Atta bisphaerica
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000273
+id: SIBO:0000273
 name: 2me5me-3-ethylpyrazine
 def: "2me5me-3-ethylpyrazine." [The Pherobase - Database of Insect Phermones and Semiochemicals:El-Sayed AM "www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000228 ! Attractant
-relationship: associated_with_behavior ID:0000442 ! Recruitment
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000248 ! Atta bisphaerica
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000396 ! Pogonomyrmex occidentalis
-relationship: is_relevant_for ID:0000399 ! Pogonomyrmex maricopa
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000402 ! Pheidole pallidula
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000228 ! Attractant
+relationship: associated_with_behavior SIBO:0000442 ! Recruitment
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000248 ! Atta bisphaerica
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000396 ! Pogonomyrmex occidentalis
+relationship: is_relevant_for SIBO:0000399 ! Pogonomyrmex maricopa
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000402 ! Pheidole pallidula
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000274
+id: SIBO:0000274
 name: Me-4me-pyrrole-2-carboxylate
 def: "Me-4me-pyrrole-2-carboxylate." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000228 ! Attractant
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000248 ! Atta bisphaerica
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000297 ! Atta sexdens
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000318 ! Atta texana
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000228 ! Attractant
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000248 ! Atta bisphaerica
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000297 ! Atta sexdens
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
 
 [Term]
-id: ID:0000275
+id: SIBO:0000275
 name: 8OH
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
 
 [Term]
-id: ID:0000276
+id: SIBO:0000276
 name: Pavan's gland
-is_a: ID:0000256 ! Semiochemical gland
+is_a: SIBO:0000256 ! Semiochemical gland
 
 [Term]
-id: ID:0000277
+id: SIBO:0000277
 name: none
 is_obsolete: true
 
 [Term]
-id: ID:0000278
+id: SIBO:0000278
 name: Indoleacetic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000270 ! Metapleural gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000270 ! Metapleural gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
 
 [Term]
-id: ID:0000279
+id: SIBO:0000279
 name: Skatole
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000270 ! Metapleural gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000270 ! Metapleural gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
 
 [Term]
-id: ID:0000280
+id: SIBO:0000280
 name: 2Ald
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000281
+id: SIBO:0000281
 name: 18Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000282
+id: SIBO:0000282
 name: 14Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000283
+id: SIBO:0000283
 name: 13Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000284
+id: SIBO:0000284
 name: 12Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000285
+id: SIBO:0000285
 name: 15Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000286
+id: SIBO:0000286
 name: 17Hy
 comment: Marking pheromone.
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000287
+id: SIBO:0000287
 name: 16Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000288
+id: SIBO:0000288
 name: 9-2Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000302 ! Atta opaciceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000302 ! Atta opaciceps
 
 [Term]
-id: ID:0000289
+id: SIBO:0000289
 name: octan-3-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000293 ! Crematogaster ashmeadi
-relationship: is_relevant_for ID:0000318 ! Atta texana
-relationship: is_relevant_for ID:0000322 ! Crematogaster castanea
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000351 ! Crematogaster liengmei
-relationship: is_relevant_for ID:0000352 ! Crematogaster peringueyi
-relationship: is_relevant_for ID:0000381 ! Crematogaster scutellaris
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
-relationship: is_relevant_for ID:0000383 ! Crematogaster rochai
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000293 ! Crematogaster ashmeadi
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
+relationship: is_relevant_for SIBO:0000322 ! Crematogaster castanea
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000351 ! Crematogaster liengmei
+relationship: is_relevant_for SIBO:0000352 ! Crematogaster peringueyi
+relationship: is_relevant_for SIBO:0000381 ! Crematogaster scutellaris
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
+relationship: is_relevant_for SIBO:0000383 ! Crematogaster rochai
 
 [Term]
-id: ID:0000290
+id: SIBO:0000290
 name: 8-3Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000293 ! Crematogaster ashmeadi
-relationship: is_relevant_for ID:0000318 ! Atta texana
-relationship: is_relevant_for ID:0000322 ! Crematogaster castanea
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000351 ! Crematogaster liengmei
-relationship: is_relevant_for ID:0000352 ! Crematogaster peringueyi
-relationship: is_relevant_for ID:0000381 ! Crematogaster scutellaris
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
-relationship: is_relevant_for ID:0000383 ! Crematogaster rochai
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000293 ! Crematogaster ashmeadi
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
+relationship: is_relevant_for SIBO:0000322 ! Crematogaster castanea
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000351 ! Crematogaster liengmei
+relationship: is_relevant_for SIBO:0000352 ! Crematogaster peringueyi
+relationship: is_relevant_for SIBO:0000381 ! Crematogaster scutellaris
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
+relationship: is_relevant_for SIBO:0000383 ! Crematogaster rochai
 
 [Term]
-id: ID:0000291
+id: SIBO:0000291
 name: 4me-4-hepten-3Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
 
 [Term]
-id: ID:0000292
+id: SIBO:0000292
 name: 4me-heptan-3-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000246 ! Atta cephalotes
-relationship: is_relevant_for ID:0000318 ! Atta texana
-relationship: is_relevant_for ID:0000398 ! Pogonomyrmex badius
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
+relationship: is_relevant_for SIBO:0000398 ! Pogonomyrmex badius
 
 [Term]
-id: ID:0000293
+id: SIBO:0000293
 name: Crematogaster ashmeadi
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000294
+id: SIBO:0000294
 name: 19Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000295
+id: SIBO:0000295
 name: 2me6me-2-dodecene
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
 
 [Term]
-id: ID:0000296
+id: SIBO:0000296
 name: Z9-23Hy
 comment: Marking pheromone.
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000297
+id: SIBO:0000297
 name: Atta sexdens
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000298
+id: SIBO:0000298
 name: delta8,11-19Hy
 comment: Marking pheromone.
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000299
+id: SIBO:0000299
 name: Z9-19Hy
 comment: Marking pheromone.
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000250 ! Atta laevigata
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000300
+id: SIBO:0000300
 name: Atta robusta
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000301
+id: SIBO:0000301
 name: Atta sexdens rubropilosa
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000302
+id: SIBO:0000302
 name: Atta opaciceps
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000303
+id: SIBO:0000303
 name: Atta sexdens sexdens
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000304
+id: SIBO:0000304
 name: Heptan-2-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000302 ! Atta opaciceps
-relationship: is_relevant_for ID:0000318 ! Atta texana
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000302 ! Atta opaciceps
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
 
 [Term]
-id: ID:0000305
+id: SIBO:0000305
 name: nonan-2-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000302 ! Atta opaciceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000302 ! Atta opaciceps
 
 [Term]
-id: ID:0000306
+id: SIBO:0000306
 name: 3-hydroxydecanoic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000270 ! Metapleural gland
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000270 ! Metapleural gland
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
 
 [Term]
-id: ID:0000307
+id: SIBO:0000307
 name: 3-hydroxydodecanoic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000270 ! Metapleural gland
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000270 ! Metapleural gland
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
 
 [Term]
-id: ID:0000308
+id: SIBO:0000308
 name: Neral
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000309
+id: SIBO:0000309
 name: delta9-18Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000310
+id: SIBO:0000310
 name: delta9-21Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000311
+id: SIBO:0000311
 name: methyl phenylacetate
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
 
 [Term]
-id: ID:0000312
+id: SIBO:0000312
 name: Citral
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
 
 [Term]
-id: ID:0000313
+id: SIBO:0000313
 name: delta1-22Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000301 ! Atta sexdens rubropilosa
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000301 ! Atta sexdens rubropilosa
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000314
+id: SIBO:0000314
 name: Geraniol
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000315
+id: SIBO:0000315
 name: Geranial
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000316
+id: SIBO:0000316
 name: Geranyl acetone
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
 
 [Term]
-id: ID:0000317
+id: SIBO:0000317
 name: 21Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000303 ! Atta sexdens sexdens
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000303 ! Atta sexdens sexdens
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000318
+id: SIBO:0000318
 name: Atta texana
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000319
+id: SIBO:0000319
 name: Heptan-3-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000318 ! Atta texana
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000318 ! Atta texana
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000320
+id: SIBO:0000320
 name: Crematogaster africana
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000321
+id: SIBO:0000321
 name: Crematogaster brevispinosa rochai
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000322
+id: SIBO:0000322
 name: Crematogaster castanea
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000323
+id: SIBO:0000323
 name: Crematogaster difformis
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000324
+id: SIBO:0000324
 name: Crematogaster deformis
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000325
+id: SIBO:0000325
 name: Crematogaster clarithorax
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000326
+id: SIBO:0000326
 name: E2-6Ald
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000320 ! Crematogaster africana
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000320 ! Crematogaster africana
 
 [Term]
-id: ID:0000327
+id: SIBO:0000327
 name: Pelargonic acid
 def: "Pelargonic acid." [ChEBI:29019 "http://www.ebi.ac.uk/chebi/"]
 synonym: "nonanoic acid" EXACT []
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: derived_from ID:0000325 ! Crematogaster clarithorax
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 
 [Term]
-id: ID:0000328
+id: SIBO:0000328
 name: 2me6me-delta5-7OH
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: derived_from ID:0000325 ! Crematogaster clarithorax
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 
 [Term]
-id: ID:0000329
+id: SIBO:0000329
 name: 2-phenylethanol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000325 ! Crematogaster clarithorax
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000325 ! Crematogaster clarithorax
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000330
+id: SIBO:0000330
 name: Citronellic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: derived_from ID:0000325 ! Crematogaster clarithorax
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 
 [Term]
-id: ID:0000331
+id: SIBO:0000331
 name: Caprylic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: derived_from ID:0000325 ! Crematogaster clarithorax
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 
 [Term]
-id: ID:0000332
+id: SIBO:0000332
 name: Crematofuran
 def: "Crematofuran." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000321 ! Crematogaster brevispinosa rochai
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000321 ! Crematogaster brevispinosa rochai
 
 [Term]
-id: ID:0000333
+id: SIBO:0000333
 name: Geranic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: derived_from ID:0000325 ! Crematogaster clarithorax
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 
 [Term]
-id: ID:0000334
+id: SIBO:0000334
 name: Phenethyl octanoate
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: derived_from ID:0000325 ! Crematogaster clarithorax
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 
 [Term]
-id: ID:0000335
+id: SIBO:0000335
 name: Phenethyl nonanoate
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: derived_from ID:0000325 ! Crematogaster clarithorax
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 
 [Term]
-id: ID:0000336
+id: SIBO:0000336
 name: 5-pentylresorcinol
 def: "5-pentylresorcinol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000324 ! Crematogaster deformis
-relationship: is_relevant_for ID:0000348 ! Crematogaster inflata
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
+relationship: is_relevant_for SIBO:0000348 ! Crematogaster inflata
 
 [Term]
-id: ID:0000337
+id: SIBO:0000337
 name: 5-propylresorcinol
 def: "5-propylresorcinol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000324 ! Crematogaster deformis
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 
 [Term]
-id: ID:0000338
+id: SIBO:0000338
 name: 3-pentylphenol
 def: "3-pentylphenol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000323 ! Crematogaster difformis
-relationship: is_relevant_for ID:0000324 ! Crematogaster deformis
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000323 ! Crematogaster difformis
+relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 
 [Term]
-id: ID:0000339
+id: SIBO:0000339
 name: Mellein
 def: "Mellein." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000323 ! Crematogaster difformis
-relationship: is_relevant_for ID:0000324 ! Crematogaster deformis
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000323 ! Crematogaster difformis
+relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 
 [Term]
-id: ID:0000340
+id: SIBO:0000340
 name: 3-propylphenol
 def: "3-propylphenol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000323 ! Crematogaster difformis
-relationship: is_relevant_for ID:0000324 ! Crematogaster deformis
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000323 ! Crematogaster difformis
+relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 
 [Term]
-id: ID:0000341
+id: SIBO:0000341
 name: 3,4-dihydro-8-hydroxyisocoumarin
 def: "3,4-dihydro-8-hydroxyisocoumarin." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000323 ! Crematogaster difformis
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000323 ! Crematogaster difformis
 
 [Term]
-id: ID:0000342
+id: SIBO:0000342
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000343
+id: SIBO:0000343
 name: <new term>
 is_obsolete: true
 
 [Term]
-id: ID:0000344
+id: SIBO:0000344
 name: 3-heptylphenol
 def: "3-heptylphenol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000323 ! Crematogaster difformis
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000323 ! Crematogaster difformis
 
 [Term]
-id: ID:0000345
+id: SIBO:0000345
 name: Isocrematofuran
 def: "Isocrematofuran." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000321 ! Crematogaster brevispinosa rochai
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000321 ! Crematogaster brevispinosa rochai
 
 [Term]
-id: ID:0000346
+id: SIBO:0000346
 name: Crematogaster mimosae
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000347
+id: SIBO:0000347
 name: Crematogaster laboriosa
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000348
+id: SIBO:0000348
 name: Crematogaster inflata
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000349
+id: SIBO:0000349
 name: Crematogaster nigriceps
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000350
+id: SIBO:0000350
 name: Crematogaster mormonum
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000351
+id: SIBO:0000351
 name: Crematogaster liengmei
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000352
+id: SIBO:0000352
 name: Crematogaster peringueyi
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000353
+id: SIBO:0000353
 name: 5-heptylresorcinol
 def: "5-heptylresorcinol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000348 ! Crematogaster inflata
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000348 ! Crematogaster inflata
 
 [Term]
-id: ID:0000354
+id: SIBO:0000354
 name: alpha-pinene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000397 ! Pheidole nodus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000397 ! Pheidole nodus
 
 [Term]
-id: ID:0000355
+id: SIBO:0000355
 name: Camphene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000347 ! Crematogaster laboriosa
-relationship: is_relevant_for ID:0000397 ! Pheidole nodus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000347 ! Crematogaster laboriosa
+relationship: is_relevant_for SIBO:0000397 ! Pheidole nodus
 
 [Term]
-id: ID:0000356
+id: SIBO:0000356
 name: beta-pinene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000347 ! Crematogaster laboriosa
-relationship: is_relevant_for ID:0000397 ! Pheidole nodus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000347 ! Crematogaster laboriosa
+relationship: is_relevant_for SIBO:0000397 ! Pheidole nodus
 
 [Term]
-id: ID:0000357
+id: SIBO:0000357
 name: Myrcene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000347 ! Crematogaster laboriosa
-relationship: is_relevant_for ID:0000397 ! Pheidole nodus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000347 ! Crematogaster laboriosa
+relationship: is_relevant_for SIBO:0000397 ! Pheidole nodus
 
 [Term]
-id: ID:0000358
+id: SIBO:0000358
 name: p-cymene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000347 ! Crematogaster laboriosa
-relationship: is_relevant_for ID:0000397 ! Pheidole nodus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000347 ! Crematogaster laboriosa
+relationship: is_relevant_for SIBO:0000397 ! Pheidole nodus
 
 [Term]
-id: ID:0000359
+id: SIBO:0000359
 name: limonene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000347 ! Crematogaster laboriosa
-relationship: is_relevant_for ID:0000397 ! Pheidole nodus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000347 ! Crematogaster laboriosa
+relationship: is_relevant_for SIBO:0000397 ! Pheidole nodus
 
 [Term]
-id: ID:0000360
+id: SIBO:0000360
 name: Eucalyptol
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000361 ! Rectum
-relationship: is_relevant_for ID:0000347 ! Crematogaster laboriosa
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000361 ! Rectum
+relationship: is_relevant_for SIBO:0000347 ! Crematogaster laboriosa
 
 [Term]
-id: ID:0000361
+id: SIBO:0000361
 name: Rectum
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
-id: ID:0000362
+id: SIBO:0000362
 name: Hexan-3-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000363
+id: SIBO:0000363
 name: Isovaleric acid
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
-relationship: is_relevant_for ID:0000383 ! Crematogaster rochai
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
+relationship: is_relevant_for SIBO:0000383 ! Crematogaster rochai
 
 [Term]
-id: ID:0000364
+id: SIBO:0000364
 name: 2me-4Acid
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
-relationship: is_relevant_for ID:0000383 ! Crematogaster rochai
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
+relationship: is_relevant_for SIBO:0000383 ! Crematogaster rochai
 
 [Term]
-id: ID:0000365
+id: SIBO:0000365
 name: 2-phenylacetaldehyde
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000366
+id: SIBO:0000366
 name: 2-phenylpropenal
 def: "2-phenylpropenal." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000367
+id: SIBO:0000367
 name: 10-3Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000368
+id: SIBO:0000368
 name: 3me-5-2Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000369
+id: SIBO:0000369
 name: 3me-pentan-2-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000370
+id: SIBO:0000370
 name: 3me-hexan-2-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000371
+id: SIBO:0000371
 name: 3me-7-2Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000372
+id: SIBO:0000372
 name: 3me-heptan-2-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000373
+id: SIBO:0000373
 name: 2me-7Acid
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000374
+id: SIBO:0000374
 name: 9Ald
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000346 ! Crematogaster mimosae
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000346 ! Crematogaster mimosae
 
 [Term]
-id: ID:0000375
+id: SIBO:0000375
 name: methyl palmitate
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000350 ! Crematogaster mormonum
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000350 ! Crematogaster mormonum
 
 [Term]
-id: ID:0000376
+id: SIBO:0000376
 name: methyl tetradecanoate
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000350 ! Crematogaster mormonum
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000350 ! Crematogaster mormonum
 
 [Term]
-id: ID:0000377
+id: SIBO:0000377
 name: 1-17Hy-1,3,5-trihydroxycyclohexane
 def: "1-17Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000378
+id: SIBO:0000378
 name: 1-19Hy-1,3,5-trihydroxycyclohexane
 def: "1-19Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000379
+id: SIBO:0000379
 name: Z1-17Hy-1,3,5-trihydroxycyclohexane
 def: "Z1-17Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000380
+id: SIBO:0000380
 name: Z1-19Hy-1,3,5-trihydroxycyclohexane
 def: "Z1-19Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000349 ! Crematogaster nigriceps
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 
 [Term]
-id: ID:0000381
+id: SIBO:0000381
 name: Crematogaster scutellaris
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000382
+id: SIBO:0000382
 name: Crematogaster sjostedti
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000383
+id: SIBO:0000383
 name: Crematogaster rochai
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000384
+id: SIBO:0000384
 name: 6me-8-3Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000383 ! Crematogaster rochai
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000383 ! Crematogaster rochai
 
 [Term]
-id: ID:0000385
+id: SIBO:0000385
 name: 9-3Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000383 ! Crematogaster rochai
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000383 ! Crematogaster rochai
 
 [Term]
-id: ID:0000386
+id: SIBO:0000386
 name: acetic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000381 ! Crematogaster scutellaris
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000381 ! Crematogaster scutellaris
 
 [Term]
-id: ID:0000387
+id: SIBO:0000387
 name: Crematogaster sp
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000388
+id: SIBO:0000388
 name: 4Acid
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000389
+id: SIBO:0000389
 name: 2me-5Acid
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000390
+id: SIBO:0000390
 name: 6me-octan-3-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000391
+id: SIBO:0000391
 name: pyrrolidin-2Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000392
+id: SIBO:0000392
 name: nonan-3-ol
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000382 ! Crematogaster sjostedti
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 
 [Term]
-id: ID:0000393
+id: SIBO:0000393
 name: Y11E13E15Z18Z20-1-hydroxy-25Ac
 def: "Y11E13E15Z18Z20-1-hydroxy-25Ac." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000387 ! Crematogaster sp
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000387 ! Crematogaster sp
 
 [Term]
-id: ID:0000394
+id: SIBO:0000394
 name: delta2-6Ald
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000387 ! Crematogaster sp
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000387 ! Crematogaster sp
 
 [Term]
-id: ID:0000395
+id: SIBO:0000395
 name: Linepithema humile
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000396
+id: SIBO:0000396
 name: Pogonomyrmex occidentalis
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000397
+id: SIBO:0000397
 name: Pheidole nodus
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000398
+id: SIBO:0000398
 name: Pogonomyrmex badius
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000399
+id: SIBO:0000399
 name: Pogonomyrmex maricopa
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000400
+id: SIBO:0000400
 name: Pogonomyrmex barbatus
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000401
+id: SIBO:0000401
 name: Pogonomyrmex californicus
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000402
+id: SIBO:0000402
 name: Pheidole pallidula
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000403
+id: SIBO:0000403
 name: Pogonomyrmex desertorum
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000404
+id: SIBO:0000404
 name: Z9-16Ald
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000409 ! Aggregation
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000409 ! Aggregation
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000405
+id: SIBO:0000405
 name: Sulcatone
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000228 ! Attractant
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000228 ! Attractant
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000406
+id: SIBO:0000406
 name: Sulcatol
 def: "Sulcatol." [The Pherobase - Database of Insect Phermones and Semiochemicals:El-Sayed AM "www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000228 ! Attractant
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000228 ! Attractant
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000407
+id: SIBO:0000407
 name: 13-2Kt
 def: "13-2Kt." [The Pherobase- Database of Insect Phermones and Semiochemicals:El-Sayed AM "www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000228 ! Attractant
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000228 ! Attractant
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000408
+id: SIBO:0000408
 name: Gamma-decalactone
 def: "Gamma-decalactone." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000409
+id: SIBO:0000409
 name: Aggregation
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 
 [Term]
-id: ID:0000410
+id: SIBO:0000410
 name: 1-methylpropyl-tridecanolide
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000409 ! Aggregation
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000409 ! Aggregation
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000411
+id: SIBO:0000411
 name: Z10-19-2Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000409 ! Aggregation
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000409 ! Aggregation
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000412
+id: SIBO:0000412
 name: Iridomyrmecin
 def: "Iridomyrmecin." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000413
+id: SIBO:0000413
 name: Dolichodial
 def: "Dolichodial" [El-Sayed AM:The Pherobase\: Database of Insect Phermones and Semiochemicals "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000414
+id: SIBO:0000414
 name: 2me5me-3-isopentylpyrazine
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000415
+id: SIBO:0000415
 name: Z-2me5me-3-styrylpyrazine
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000416
+id: SIBO:0000416
 name: E-2me5me-3-styrylpyrazine
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000417
+id: SIBO:0000417
 name: 3me-13Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000418
+id: SIBO:0000418
 name: 25Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000419
+id: SIBO:0000419
 name: 23Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000420
+id: SIBO:0000420
 name: 20Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000421
+id: SIBO:0000421
 name: 24Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000422
+id: SIBO:0000422
 name: 22Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000423
+id: SIBO:0000423
 name: 27Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000424
+id: SIBO:0000424
 name: 26Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000425
+id: SIBO:0000425
 name: 3me-19Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000426
+id: SIBO:0000426
 name: delta9-19Hydelta9-19Hy
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000427
+id: SIBO:0000427
 name: 3me-17Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000428
+id: SIBO:0000428
 name: 5me-17Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000429
+id: SIBO:0000429
 name: delta8-17Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000430
+id: SIBO:0000430
 name: delta7-17Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000431
+id: SIBO:0000431
 name: 4me-16Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000432
+id: SIBO:0000432
 name: 3me-15Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000433
+id: SIBO:0000433
 name: 5me-15Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000434
+id: SIBO:0000434
 name: delta7-15Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: is_relevant_for ID:0000395 ! Linepithema humile
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 
 [Term]
-id: ID:0000435
+id: SIBO:0000435
 name: Z,E-alpha-farnesene
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000402 ! Pheidole pallidula
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000402 ! Pheidole pallidula
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000436
+id: SIBO:0000436
 name: Pogonomyrmex salinus
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000437
+id: SIBO:0000437
 name: Pogonomyrmex rugosus
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000438
+id: SIBO:0000438
 name: Oleic acid
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000439 ! Recognition
-relationship: is_relevant_for ID:0000398 ! Pogonomyrmex badius
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000439 ! Recognition
+relationship: is_relevant_for SIBO:0000398 ! Pogonomyrmex badius
 
 [Term]
-id: ID:0000439
+id: SIBO:0000439
 name: Recognition
-is_a: ID:0000147 ! Behavior
-is_a: ID:0000442 ! Recruitment
+is_a: SIBO:0000147 ! Behavior
+is_a: SIBO:0000442 ! Recruitment
 
 [Term]
-id: ID:0000440
+id: SIBO:0000440
 name: 4me-6-3Kt
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000230 ! Alarm
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000398 ! Pogonomyrmex badius
-relationship: is_relevant_for ID:0000436 ! Pogonomyrmex salinus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000230 ! Alarm
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000398 ! Pogonomyrmex badius
+relationship: is_relevant_for SIBO:0000436 ! Pogonomyrmex salinus
 
 [Term]
-id: ID:0000441
+id: SIBO:0000441
 name: 2me3me5me-pyrazine
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000442 ! Recruitment
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: is_relevant_for ID:0000396 ! Pogonomyrmex occidentalis
-relationship: is_relevant_for ID:0000399 ! Pogonomyrmex maricopa
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000442 ! Recruitment
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: is_relevant_for SIBO:0000396 ! Pogonomyrmex occidentalis
+relationship: is_relevant_for SIBO:0000399 ! Pogonomyrmex maricopa
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000442
+id: SIBO:0000442
 name: Recruitment
-is_a: ID:0000054 ! Bee colony defense
-is_a: ID:0000147 ! Behavior
-relationship: precedes ID:0000072 ! Secondary perception and discrimination or identification
-relationship: precedes ID:0000076 ! Threat
+is_a: SIBO:0000054 ! Bee colony defense
+is_a: SIBO:0000147 ! Behavior
+relationship: precedes SIBO:0000072 ! Secondary perception and discrimination or identification
+relationship: precedes SIBO:0000076 ! Threat
 
 [Term]
-id: ID:0000443
+id: SIBO:0000443
 name: 2me5me-pyrazine
-is_a: ID:0000143 ! Semiochemical
-relationship: associated_with_behavior ID:0000442 ! Recruitment
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: is_relevant_for ID:0000396 ! Pogonomyrmex occidentalis
-relationship: is_relevant_for ID:0000399 ! Pogonomyrmex maricopa
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: associated_with_behavior SIBO:0000442 ! Recruitment
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: is_relevant_for SIBO:0000396 ! Pogonomyrmex occidentalis
+relationship: is_relevant_for SIBO:0000399 ! Pogonomyrmex maricopa
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000444
+id: SIBO:0000444
 name: 3me-11Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000445
+id: SIBO:0000445
 name: 6me-12Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000446
+id: SIBO:0000446
 name: 3me-12Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000447
+id: SIBO:0000447
 name: 3me5me-12Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000261 ! Dufour's gland
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000261 ! Dufour's gland
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000448
+id: SIBO:0000448
 name: 5me-6-3Kt
 def: "5me-6-3Kt." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000449
+id: SIBO:0000449
 name: 5me-13Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
 
 [Term]
-id: ID:0000450
+id: SIBO:0000450
 name: 3me4me-13Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000451
+id: SIBO:0000451
 name: Benzaldehyde
 def: "Benzaldehyde." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000452
+id: SIBO:0000452
 name: 6me-14Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: associated_with_behavior ID:0000527 ! Trail Discrimination
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: associated_with_behavior SIBO:0000527 ! Trail Discrimination
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000453
+id: SIBO:0000453
 name: 2-phenyl-2-butenal
 def: "2-phenyl-2-butenal." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000454
+id: SIBO:0000454
 name: 6me-13Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000455
+id: SIBO:0000455
 name: 6me-11Hy
-is_a: ID:0000150 ! Hydrocarbons
-relationship: derived_from ID:0000261 ! Dufour's gland
-relationship: is_relevant_for ID:0000437 ! Pogonomyrmex rugosus
+is_a: SIBO:0000150 ! Hydrocarbons
+relationship: derived_from SIBO:0000261 ! Dufour's gland
+relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 
 [Term]
-id: ID:0000456
+id: SIBO:0000456
 name: Manicone
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000436 ! Pogonomyrmex salinus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000436 ! Pogonomyrmex salinus
 
 [Term]
-id: ID:0000457
+id: SIBO:0000457
 name: normanicone
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000436 ! Pogonomyrmex salinus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000436 ! Pogonomyrmex salinus
 
 [Term]
-id: ID:0000458
+id: SIBO:0000458
 name: Homomanicone
-is_a: ID:0000143 ! Semiochemical
-relationship: derived_from ID:0000258 ! Mandibular gland
-relationship: is_relevant_for ID:0000436 ! Pogonomyrmex salinus
+is_a: SIBO:0000143 ! Semiochemical
+relationship: derived_from SIBO:0000258 ! Mandibular gland
+relationship: is_relevant_for SIBO:0000436 ! Pogonomyrmex salinus
 
 [Term]
-id: ID:0000459
+id: SIBO:0000459
 name: Solenopsis conjurata
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000460
+id: SIBO:0000460
 name: Solenopsis fugax
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000461
+id: SIBO:0000461
 name: Solenopsis geminata
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000462
+id: SIBO:0000462
 name: Solenopsis invicta
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000463
+id: SIBO:0000463
 name: Solenopsis maboya
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000464
+id: SIBO:0000464
 name: Solenopsis molesta
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000465
+id: SIBO:0000465
 name: Solenopsis punctaticeps
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000466
+id: SIBO:0000466
 name: Solenopsis richteri
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000467
+id: SIBO:0000467
 name: Solenopsis sp
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000468
+id: SIBO:0000468
 name: Solenopsis tennesseensis
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000469
+id: SIBO:0000469
 name: Solenopsis xyloni
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 
 [Term]
-id: ID:0000470
+id: SIBO:0000470
 name: 3-hexyl-5me-indolizine
 def: "3-hexyl-5me-indolizine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000459 ! Solenopsis conjurata
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000459 ! Solenopsis conjurata
 
 [Term]
-id: ID:0000471
+id: SIBO:0000471
 name: 3-ethyl-5me-indolizine
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000459 ! Solenopsis conjurata
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000459 ! Solenopsis conjurata
 
 [Term]
-id: ID:0000472
+id: SIBO:0000472
 name: 2S6R-2me-6-undecylpiperidine
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000459 ! Solenopsis conjurata
-relationship: is_relevant_for ID:0000461 ! Solenopsis geminata
-relationship: is_relevant_for ID:0000466 ! Solenopsis richteri
-relationship: is_relevant_for ID:0000469 ! Solenopsis xyloni
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000459 ! Solenopsis conjurata
+relationship: is_relevant_for SIBO:0000461 ! Solenopsis geminata
+relationship: is_relevant_for SIBO:0000466 ! Solenopsis richteri
+relationship: is_relevant_for SIBO:0000469 ! Solenopsis xyloni
 
 [Term]
-id: ID:0000473
+id: SIBO:0000473
 name: 2S6S-2me-6-nonylpiperidine
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000459 ! Solenopsis conjurata
-relationship: is_relevant_for ID:0000467 ! Solenopsis sp
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000459 ! Solenopsis conjurata
+relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 
 [Term]
-id: ID:0000474
+id: SIBO:0000474
 name: 2S6R-2me-6-nonylpiperidine
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: derived_from ID:0000259 ! Poison gland
-relationship: is_relevant_for ID:0000459 ! Solenopsis conjurata
-relationship: is_relevant_for ID:0000463 ! Solenopsis maboya
-relationship: is_relevant_for ID:0000464 ! Solenopsis molesta
-relationship: is_relevant_for ID:0000467 ! Solenopsis sp
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: derived_from SIBO:0000259 ! Poison gland
+relationship: is_relevant_for SIBO:0000459 ! Solenopsis conjurata
+relationship: is_relevant_for SIBO:0000463 ! Solenopsis maboya
+relationship: is_relevant_for SIBO:0000464 ! Solenopsis molesta
+relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 
 [Term]
-id: ID:0000475
+id: SIBO:0000475
 name: trans-2-butyl-5-heptylpyrrolidine
 def: "Trans-2-butyl-5-heptylpyrrolidine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM "http://www.pherobase.com"]
-is_a: ID:0000143 ! Semiochemical
-is_a: ID:0000225 ! Allomones
-relationship: associated_with_behavior ID:0000145 ! Defense
-relationship: is_relevant_for ID:0000460 ! Solenopsis fugax
-relationship: is_relevant_for ID:0000465 ! Solenopsis punctaticeps
+is_a: SIBO:0000143 ! Semiochemical
+is_a: SIBO:0000225 ! Allomones
+relationship: associated_with_behavior SIBO:0000145 ! Defense
+relationship: is_relevant_for SIBO:0000460 ! Solenopsis fugax
+relationship: is_relevant_for SIBO:0000465 ! Solenopsis punctaticeps
 
 [Term]
-id: ID:0000476
+id: SIBO:0000476
 name: Z,Z,Z-allofarnesene
-is_a: ID:0000143 ! Semiochemical
-relationship: is_relevant_for ID:0000462 ! Solenopsis invicta
+is_a: SIBO:0000143 ! Semiochemical
+relationship: is_relevant_for SIBO:0000462 ! Solenopsis invicta
 
 [Term]
-id: ID:0000477
+id: SIBO:0000477
 name: Species
 
 [Term]
-id: ID:0000478
+id: SIBO:0000478
 name: Alcohol
-is_a: ID:0000143 ! Semiochemical
+is_a: SIBO:0000143 ! Semiochemical
 
 [Term]
-id: ID:0000479
+id: SIBO:0000479
 name: Chemical
 
 [Term]
-id: ID:0000480
+id: SIBO:0000480
 name: 3.9-Dimenthylheptacosane
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y "Qualitative Analysis"]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: 3.9-Dimenthylheptacosane.\nSource of Standard: Ant extraction.\nSample Type-2: Silica gel in plastic tray or Petri dish.\nAnalysis Method-2: Pentane extraction w/o derivatization.\nCompound Name-2: 3.9-Dimenthylheptacosane.\nSource of Standard-2: Ant extraction.\nSample Type-3: Silica gel in bottles or vials.\nAnalysis Method-3: Pyridiene extraction w/o derivatization.\nCompound Name-3: 3.9-Dimenthylheptacosane\nSource of Standard-3: Ant extraction.
-is_a: ID:0000150 ! Hydrocarbons
+is_a: SIBO:0000150 ! Hydrocarbons
 
 [Term]
-id: ID:0000481
+id: SIBO:0000481
 name: orifice of metapleural gland
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T02:20:00Z
 
 [Term]
-id: ID:0000482
+id: SIBO:0000482
 name: denticle
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T02:24:00Z
 
 [Term]
-id: ID:0000483
+id: SIBO:0000483
 name: funiculus of antenna
-relationship: OBO_REL:part_of ID:0000099 ! scape of antenna
+relationship: part_of SIBO:0000099 ! scape of antenna
 created_by: ilma
 creation_date: 2007-12-20T02:27:00Z
 
 [Term]
-id: ID:0000484
+id: SIBO:0000484
 name: trulleum
-relationship: OBO_REL:part_of ID:0000120 ! mandible
+relationship: part_of SIBO:0000120 ! mandible
 created_by: ilma
 creation_date: 2007-12-20T02:49:00Z
 
 [Term]
-id: ID:0000485
+id: SIBO:0000485
 name: postpetiole
 def: "Postpetiole- The third abdominal segment. In strict usage the term should only be applied when the third abdominal segment is reduced and separated from the petiole in front and the fourth abdominal segment behind. See also Abdomen." [XX:<new dbxref>, XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-relationship: OBO_REL:part_of ID:0000129 ! waist
+relationship: part_of SIBO:0000129 ! waist
 created_by: ilma
 creation_date: 2007-12-20T03:29:00Z
 
 [Term]
-id: ID:0000486
+id: SIBO:0000486
 name: coxa number 1
-is_a: ID:0000109 ! coxa number
+is_a: SIBO:0000109 ! coxa number
 created_by: ilma
 creation_date: 2007-12-20T03:33:00Z
 
 [Term]
-id: ID:0000487
+id: SIBO:0000487
 name: coxa number 2
-is_a: ID:0000109 ! coxa number
+is_a: SIBO:0000109 ! coxa number
 created_by: ilma
 creation_date: 2007-12-20T03:33:00Z
 
 [Term]
-id: ID:0000488
+id: SIBO:0000488
 name: coxa number 3
-is_a: ID:0000109 ! coxa number
+is_a: SIBO:0000109 ! coxa number
 created_by: ilma
 creation_date: 2007-12-20T03:33:00Z
 
 [Term]
-id: ID:0000489
+id: SIBO:0000489
 name: gastral segment number 1
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T03:53:00Z
 
 [Term]
-id: ID:0000490
+id: SIBO:0000490
 name: gastral segment number 2
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T03:53:00Z
 
 [Term]
-id: ID:0000491
+id: SIBO:0000491
 name: gastral segment number 3
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T03:53:00Z
 
 [Term]
-id: ID:0000492
+id: SIBO:0000492
 name: gastral segment number 4
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T03:53:00Z
 
 [Term]
-id: ID:0000493
+id: SIBO:0000493
 name: gastral segment number 5
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T03:53:00Z
 
 [Term]
-id: ID:0000494
+id: SIBO:0000494
 name: abdominal segment number 1
-relationship: OBO_REL:part_of ID:0000105 ! mesosoma
+relationship: part_of SIBO:0000105 ! mesosoma
 created_by: ilma
 creation_date: 2007-12-20T03:59:00Z
 
 [Term]
-id: ID:0000495
+id: SIBO:0000495
 name: abdominal segment number 2
-relationship: OBO_REL:part_of ID:0000129 ! waist
+relationship: part_of SIBO:0000129 ! waist
 created_by: ilma
 creation_date: 2007-12-20T04:01:00Z
 
 [Term]
-id: ID:0000496
+id: SIBO:0000496
 name: abdominal segment number 3
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 created_by: ilma
 creation_date: 2007-12-20T04:01:00Z
 
 [Term]
-id: ID:0000497
+id: SIBO:0000497
 name: abdominal segment number 4
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 created_by: ilma
 creation_date: 2007-12-20T04:01:00Z
 
 [Term]
-id: ID:0000498
+id: SIBO:0000498
 name: abdominal segment number 5
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 created_by: ilma
 creation_date: 2007-12-20T04:01:00Z
 
 [Term]
-id: ID:0000499
+id: SIBO:0000499
 name: abdominal se
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T04:01:00Z
 
 [Term]
-id: ID:0000500
+id: SIBO:0000500
 name: abdominal segment number 6
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 created_by: ilma
 creation_date: 2007-12-20T04:03:00Z
 
 [Term]
-id: ID:0000501
+id: SIBO:0000501
 name: abdominal segment number 7
-relationship: OBO_REL:part_of ID:0000113 ! gaster
+relationship: part_of SIBO:0000113 ! gaster
 created_by: ilma
 creation_date: 2007-12-20T04:03:00Z
 
 [Term]
-id: ID:0000502
+id: SIBO:0000502
 name: spiracle
 def: "Spiracle- An orifice of the tracheal system by which gases enter and leave the body. Ants have 9 or 10 spiracles on each side of the body. The prothoracic spiracles have been lost, so the first opening occurs on the mesothroax." [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
-is_a: ID:0000149 ! Anatomical part
-relationship: OBO_REL:part_of ID:0000495 ! abdominal segment number 2
-relationship: OBO_REL:part_of ID:0000496 ! abdominal segment number 3
-relationship: OBO_REL:part_of ID:0000497 ! abdominal segment number 4
+is_a: SIBO:0000149 ! Anatomical part
+relationship: part_of SIBO:0000495 ! abdominal segment number 2
+relationship: part_of SIBO:0000496 ! abdominal segment number 3
+relationship: part_of SIBO:0000497 ! abdominal segment number 4
 created_by: ilma
 creation_date: 2007-12-20T04:04:00Z
 
 [Term]
-id: ID:0000503
+id: SIBO:0000503
 name: gastral segment number 1
-relationship: OBO_REL:part_of ID:0000496 ! abdominal segment number 3
+relationship: part_of SIBO:0000496 ! abdominal segment number 3
 created_by: ilma
 creation_date: 2007-12-20T04:11:00Z
 
 [Term]
-id: ID:0000504
+id: SIBO:0000504
 name: gastral segment number 2
-relationship: OBO_REL:part_of ID:0000497 ! abdominal segment number 4
+relationship: part_of SIBO:0000497 ! abdominal segment number 4
 created_by: ilma
 creation_date: 2007-12-20T04:11:00Z
 
 [Term]
-id: ID:0000505
+id: SIBO:0000505
 name: gastral segment number 3
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T04:11:00Z
 
 [Term]
-id: ID:0000506
+id: SIBO:0000506
 name: gastral segment number 4
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T04:11:00Z
 
 [Term]
-id: ID:0000507
+id: SIBO:0000507
 name: gastral segment number 5
-relationship: OBO_REL:part_of ID:0000501 ! abdominal segment number 7
+relationship: part_of SIBO:0000501 ! abdominal segment number 7
 created_by: ilma
 creation_date: 2007-12-20T04:11:00Z
 
 [Term]
-id: ID:0000508
+id: SIBO:0000508
 name: gastral segment number 6
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T04:11:00Z
 
 [Term]
-id: ID:0000509
+id: SIBO:0000509
 name: gastral segment number 7
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-20T04:11:00Z
 
 [Term]
-id: ID:0000510
+id: SIBO:0000510
 name: gastral segment number 3
-relationship: OBO_REL:part_of ID:0000498 ! abdominal segment number 5
+relationship: part_of SIBO:0000498 ! abdominal segment number 5
 created_by: ilma
 creation_date: 2007-12-20T04:14:00Z
 
 [Term]
-id: ID:0000511
+id: SIBO:0000511
 name: gastral segment number 4
-relationship: OBO_REL:part_of ID:0000500 ! abdominal segment number 6
+relationship: part_of SIBO:0000500 ! abdominal segment number 6
 created_by: ilma
 creation_date: 2007-12-20T04:15:00Z
 
 [Term]
-id: ID:0000512
+id: SIBO:0000512
 name: pygidium
-relationship: OBO_REL:part_of ID:0000501 ! abdominal segment number 7
+relationship: part_of SIBO:0000501 ! abdominal segment number 7
 created_by: ilma
 creation_date: 2007-12-20T04:17:00Z
 
 [Term]
-id: ID:0000513
+id: SIBO:0000513
 name: Antenna
 is_obsolete: true
 created_by: ilma
 creation_date: 2007-12-21T03:54:00Z
 
 [Term]
-id: ID:0000514
+id: SIBO:0000514
 name: Antenna
 synonym: "Flagellum" RELATED []
 synonym: "Funiculus " RELATED []
-relationship: OBO_REL:part_of ID:0000112 ! head
+relationship: part_of SIBO:0000112 ! head
 created_by: ilma
 creation_date: 2007-12-21T03:55:00Z
 
 [Term]
-id: ID:0000515
+id: SIBO:0000515
 name: <new term>
 is_obsolete: true
 created_by: ilma
 creation_date: 2008-03-11T04:07:00Z
 
 [Term]
-id: ID:0000516
+id: SIBO:0000516
 name: Colony Defense
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 created_by: ilma
 creation_date: 2008-03-11T04:07:00Z
 
 [Term]
-id: ID:0000517
+id: SIBO:0000517
 name: Waggle Dance
-is_a: ID:0000521 ! pollen dancing
+is_a: SIBO:0000521 ! pollen dancing
 created_by: cdsmith
 creation_date: 2008-06-07T10:50:00Z
 
 [Term]
-id: ID:0000518
+id: SIBO:0000518
 name: Round Dance
-is_a: ID:0000521 ! pollen dancing
+is_a: SIBO:0000521 ! pollen dancing
 created_by: cdsmith
 creation_date: 2008-06-07T10:51:00Z
 
 [Term]
-id: ID:0000519
+id: SIBO:0000519
 name: pollen foraging
-is_a: ID:0000152 ! Foraging
-relationship: associated_with_behavior ID:0000151 ! Brood Care
-relationship: is_relevant_for OBO_REL: ! Apis mellifera
+is_a: SIBO:0000152 ! Foraging
+relationship: associated_with_behavior SIBO:0000151 ! Brood Care
+relationship: is_relevant_for NCBITaxon:7460 ! Apis mellifera
 created_by: cdsmith
 creation_date: 2008-06-07T10:21:00Z
 
 [Term]
-id: ID:0000520
+id: SIBO:0000520
 name: Return to nest
-is_a: ID:0000147 ! Behavior
+is_a: SIBO:0000147 ! Behavior
 created_by: ilma
 creation_date: 2008-03-28T10:30:00Z
 
 [Term]
-id: ID:0000521
+id: SIBO:0000521
 name: pollen dancing
-is_a: ID:0000519 ! pollen foraging
-relationship: precedes ID:0000519 ! pollen foraging
+is_a: SIBO:0000519 ! pollen foraging
+relationship: precedes SIBO:0000519 ! pollen foraging
 created_by: cdsmith
 creation_date: 2008-06-07T10:29:00Z
 
 [Term]
-id: ID:0000522
+id: SIBO:0000522
 name: Dufours Gland
 is_obsolete: true
 created_by: ilma
 creation_date: 2008-03-06T02:14:00Z
 
 [Term]
-id: ID:0000523
+id: SIBO:0000523
 name: <new term>
 is_obsolete: true
 created_by: ilma
 creation_date: 2008-03-06T02:15:00Z
 
 [Term]
-id: ID:0000524
+id: SIBO:0000524
 name: Colony Abandonment
-is_a: ID:0000232 ! Dispersal
-relationship: is_relevant_for OBO_REL: ! Apis mellifera
+is_a: SIBO:0000232 ! Dispersal
+relationship: is_relevant_for NCBITaxon:7460 ! Apis mellifera
 created_by: cdsmith
 creation_date: 2011-06-25T01:00:05Z
 
 [Term]
-id: ID:0000525
+id: SIBO:0000525
 name: Patrolling
 def: "Path of Patrolling:\n1. Patrollers emerge at sunrise\n2. Stroll around nest mound\n3. Inspect ground with antenna\n4. Deposite Dufour's gland \n4. Tuck abdomen under thorax\n5. Travel directly out on a stream of foragers" [XX:DOI\: 10.1086/522843 "Gordon, Deborah. American Naturalist: Natural History Note. Dec. 2007"]
-is_a: ID:0000147 ! Behavior
-relationship: is_relevant_for ID:0000400 ! Pogonomyrmex barbatus
-relationship: precedes ID:0000152 ! Foraging
+is_a: SIBO:0000147 ! Behavior
+relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
+relationship: precedes SIBO:0000152 ! Foraging
 created_by: ilma
 creation_date: 2008-03-11T03:52:00Z
 
 [Term]
-id: ID:0000526
+id: SIBO:0000526
 name: Forager Antennae Contact
 def: "Foragers recognize returning patrollers during brief antennal contacts by detecting cues in task-specific cuticular hydrocarbons (Green and Gordon 2003)." [XX:DOI\: 10.1086/522843 "Gordon, Deborah. American Naturalist: How Patrollers Set Foraging Direction in Harvester Ants. July 2007"]
-is_a: ID:0000147 ! Behavior
-relationship: associated_with_behavior ID:0000439 ! Recognition
-relationship: precedes ID:0000520 ! Return to nest
-relationship: precedes ID:0000526 ! Forager Antennae Contact
-relationship: precedes ID:0000528 ! Predator Avoidance
+is_a: SIBO:0000147 ! Behavior
+relationship: associated_with_behavior SIBO:0000439 ! Recognition
+relationship: precedes SIBO:0000520 ! Return to nest
+relationship: precedes SIBO:0000526 ! Forager Antennae Contact
+relationship: precedes SIBO:0000528 ! Predator Avoidance
 created_by: ilma
 creation_date: 2008-03-11T03:52:00Z
 
 [Term]
-id: ID:0000527
+id: SIBO:0000527
 name: Trail Discrimination
 def: "Foragers travel from the nest in streams, or trails, and then fan out to individually search for seeds (Gordon 1991). Trails extend radially from edge of nest mound, with 1 m diameter. Trail is formed in a fan shaped region. Trails very day to day. Each colony chooses from up to eight distinct foraging trails. Direction varies in response to overlap with foragers of neighboring colonies. Foragers tend to travel in the direction from which most patrollers return." [XX:DOI\: 10.1086/522843 "Gordon, Deborah. American Naturalist: Natural History Note. July 2007"]
-is_a: ID:0000147 ! Behavior
-relationship: associated_with_behavior ID:0000525 ! Patrolling
-relationship: precedes ID:0000525 ! Patrolling
+is_a: SIBO:0000147 ! Behavior
+relationship: associated_with_behavior SIBO:0000525 ! Patrolling
+relationship: precedes SIBO:0000525 ! Patrolling
 created_by: ilma
 creation_date: 2008-03-11T03:52:00Z
 
 [Term]
-id: ID:0000528
+id: SIBO:0000528
 name: Predator Avoidance
 def: "Predation leads to quick return for patrollers to nest." [XX:<new dbxref> "Gordon, Deboarh. Interaction rate informs harverster ant task decisions. Dec. 2006", XX:DOI\:10.1093/beheco/arl105 "Gor"]
-is_a: ID:0000147 ! Behavior
-relationship: associated_with_behavior ID:0000525 ! Patrolling
+is_a: SIBO:0000147 ! Behavior
+relationship: associated_with_behavior SIBO:0000525 ! Patrolling
 created_by: ilma
 creation_date: 2008-03-11T03:52:00Z
 
 [Term]
-id: ID:0000529
+id: SIBO:0000529
 name: Emerge from Nest
 def: "Emerge from nest at sunrise." [XX:DOI\: 10.1086/522843 "Gordon, Deborah. American Naturalist: Natural History Note. July 2007"]
-relationship: precedes ID:0000525 ! Patrolling
-relationship: precedes ID:0000531 ! Move toward external stimuli
+relationship: precedes SIBO:0000525 ! Patrolling
+relationship: precedes SIBO:0000531 ! Move toward external stimuli
 created_by: ilma
 creation_date: 2008-03-11T03:52:00Z
 
 [Term]
-id: ID:0000530
+id: SIBO:0000530
 name: Move to hive entrance
-relationship: precedes ID:0000529 ! Emerge from Nest
+relationship: precedes SIBO:0000529 ! Emerge from Nest
 created_by: cdsmith
 creation_date: 2011-06-25T01:11:38Z
 
 [Term]
-id: ID:0000531
+id: SIBO:0000531
 name: Move toward external stimuli
-relationship: precedes ID:0000524 ! Colony Abandonment
+relationship: precedes SIBO:0000524 ! Colony Abandonment
 created_by: cdsmith
 creation_date: 2011-06-25T01:14:10Z
 
 [Term]
-id: ID:0000532
+id: SIBO:0000532
 name: Swarming
-is_a: ID:0000232 ! Dispersal
+is_a: SIBO:0000232 ! Dispersal
 created_by: cdsmith
 creation_date: 2011-06-25T09:05:43Z
 
 [Term]
-id: ID:0000533
+id: SIBO:0000533
 name: Colony Collapse Disorder
 synonym: "CCD" RELATED []
-is_a: ID:0000232 ! Dispersal
+is_a: SIBO:0000232 ! Dispersal
 created_by: cdsmith
 creation_date: 2011-06-25T09:06:06Z
 
 [Term]
-id: OBO_REL:
+id: NCBITaxon:7460
 name: Apis mellifera
-is_a: ID:0000477 ! Species
+is_a: SIBO:0000477 ! Species
 created_by: cdsmith
 creation_date: 2007-10-18T01:36:00Z
 
@@ -3704,16 +3700,16 @@ created_by: cdsmith
 creation_date: 2007-10-17T12:27:00Z
 
 [Typedef]
-id: OBO_REL:part_of
+id: part_of
 name: part_of
+xref: BFO:0000050
 is_transitive: true
-created_by: cdsmith
-creation_date: 2007-10-06T12:45:00Z
 
 [Typedef]
 id: precedes
-name: preceded_by
+name: precedes
 is_transitive: true
+xref: BFO:0000060
 
 [Typedef]
 id: produces
