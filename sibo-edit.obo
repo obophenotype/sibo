@@ -61,7 +61,7 @@ def: "Formic acid." [ChEBI:30751 "http://www.ebi.ac.uk/chebi/"]
 comment: Glandular source: Poison.
 relationship: associated_with_behavior SIBO:0000145 ! Defense
 relationship: derived_from SIBO:0000259 ! Poison gland
-#is_a: SIBO:0000159              80
+is_a: SIBO:0000159
 
 [Term]
 id: SIBO:0000010
@@ -955,7 +955,7 @@ created_by: ilma
 creation_date: 2007-12-20T02:18:00Z
 
 [Term]
-id: SIBO:0000159              80
+id: SIBO:0000159
 name: Carboxylic acids
 def: "Oxoacids having the structure RC=(=O)OH. The term is used as a suffix in systematic name function to denote the -C(=O)OH group including its carbon atom." [CHEBI:33575 "http://www.ebi.ac.uk/chebi/"]
 is_a: SIBO:0000143 ! Semiochemical
