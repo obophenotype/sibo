@@ -1,7 +1,3 @@
-format-version: 1.2
-date: 25:06:2011 13:11
-saved-by: cdsmith
-auto-generated-by: OBO-Edit 2.1-beta13
 default-namespace: sibo
 ontology: sibo
 
@@ -47,12 +43,6 @@ id: SIBO:0000006
 name: n-Decane
 comment: Glandular Source:Dufour's.
 is_a: SIBO:0000150 ! Hydrocarbons
-
-[Term]
-id: SIBO:0000007
-name: ;
-def: ";" [XXl;'k':<nelk';l "'k"]
-is_obsolete: true
 
 [Term]
 id: SIBO:0000009
@@ -464,11 +454,6 @@ relationship: precedes SIBO:0000075 ! Disengagement
 relationship: precedes SIBO:0000442 ! Recruitment
 
 [Term]
-id: SIBO:0000074
-name: new
-is_obsolete: true
-
-[Term]
 id: SIBO:0000075
 name: Disengagement
 is_a: SIBO:0000054 ! Bee colony defense
@@ -493,7 +478,7 @@ is_obsolete: true
 [Term]
 id: SIBO:0000079
 name: apical tooth of mandible
-def: "Apical margin/tooth- See Mandibles" [XX:<new dbxref> "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
+def: "Apical margin/tooth- See Mandibles" [SIBO:csmith "Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222."]
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
