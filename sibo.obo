@@ -493,25 +493,25 @@ relationship: part_of SIBO:0000120 ! mandible
 [Term]
 id: SIBO:0000080
 name: anterior tentorial pit
-def: "Anterior tentorial pits- A pair of pits of impressions located anteriorly on the dorsal surface of the head, at or very close to the posterior clypeal margin. The pits indicate the points of attachment of the anterior arms of the internal skeleton (tentorium) of the head to head capsule. The termination of the posterior arms of the tentorium are marked by a pair of posterior tentorial pits, which are located close to the occipital foramen." [XX:<new dbxref>]
+def: "Anterior tentorial pits- A pair of pits of impressions located anteriorly on the dorsal surface of the head, at or very close to the posterior clypeal margin. The pits indicate the points of attachment of the anterior arms of the internal skeleton (tentorium) of the head to head capsule. The termination of the posterior arms of the tentorium are marked by a pair of posterior tentorial pits, which are located close to the occipital foramen." []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
 id: SIBO:0000081
 name: basal angle of mandible
-def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref>]
+def: "Basal angle/ lamella/ margin tooth- See Mandibles" []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
 id: SIBO:0000082
 name: basal tooth of mandible
-def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref>]
+def: "Basal angle/ lamella/ margin tooth- See Mandibles" []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
 id: SIBO:0000083
 name: diastema
-def: "Diastema- See Mandibles" [XX:<new dbxref>]
+def: "Diastema- See Mandibles" []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
@@ -522,7 +522,7 @@ relationship: part_of SIBO:0000120 ! mandible
 [Term]
 id: SIBO:0000085
 name: frontal carina
-def: "Frontal carinae- A pair of longitudinal ridges on the head, located dorsally behind the clypeus and between the antennal sockets. They are very variable in the length and strength of development, frequently being short and simple but sometimes extending back to the occipital margin of the head. In some groups the frontal carina are vestigial or absent, but elsewhere they may be strongly developed or form the dorsal margins of extensive antennal scrobes. Commonly the frontal carinae anteriorly are expanded into progecting lobate extensions, the frontal lobes, which partially or entirely cover and conceal the antennal sockets. Frontal lobes may be the only expression of the frontal carinae in some groups. Sometimes the portions of the torulus closets to the cephalic midline is raised and expanded into a small, laterally projecting lobe, which may extend beyond the lateral margin of the frontal carina or lobe." [XX:<new dbxref>]
+def: "Frontal carinae- A pair of longitudinal ridges on the head, located dorsally behind the clypeus and between the antennal sockets. They are very variable in the length and strength of development, frequently being short and simple but sometimes extending back to the occipital margin of the head. In some groups the frontal carina are vestigial or absent, but elsewhere they may be strongly developed or form the dorsal margins of extensive antennal scrobes. Commonly the frontal carinae anteriorly are expanded into progecting lobate extensions, the frontal lobes, which partially or entirely cover and conceal the antennal sockets. Frontal lobes may be the only expression of the frontal carinae in some groups. Sometimes the portions of the torulus closets to the cephalic midline is raised and expanded into a small, laterally projecting lobe, which may extend beyond the lateral margin of the frontal carina or lobe." []
 synonym: "Frontal lobes" RELATED []
 relationship: part_of SIBO:0000112 ! head
 
@@ -534,13 +534,13 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000087
 name: fronto-clypeal suture
-def: "Fronto-clypeal suture- The suture forming the posterior margin or boundary of the clypeusl frequently referred to as the posterios clypeal margin." [XX:<new dbxref>]
+def: "Fronto-clypeal suture- The suture forming the posterior margin or boundary of the clypeusl frequently referred to as the posterios clypeal margin." []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
 id: SIBO:0000088
 name: frontal triangle
-def: "Frontal triangle- A small triangular patch of the cuticle located mediodorsally on the head immediately behind the clypeus and approximately between the antennal sockets or anterior parts of the frontal carinae in many ant taxa." [XX:<new dbxref>]
+def: "Frontal triangle- A small triangular patch of the cuticle located mediodorsally on the head immediately behind the clypeus and approximately between the antennal sockets or anterior parts of the frontal carinae in many ant taxa." []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
@@ -551,7 +551,7 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000090
 name: gena
-def: "Gena- Area of front of head bounded in front by the posterior margin of he clypeus, behind by the anterior margin of the eye, and medially by the antennal socket. The gena thus includes part of the cephalic dorsum and the side of the head capsule between the eye and the clypeus." [XX:<new dbxref>]
+def: "Gena- Area of front of head bounded in front by the posterior margin of he clypeus, behind by the anterior margin of the eye, and medially by the antennal socket. The gena thus includes part of the cephalic dorsum and the side of the head capsule between the eye and the clypeus." []
 relationship: adjacent_to SIBO:0000112 ! head
 
 [Term]
@@ -567,13 +567,13 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000093
 name: apical margin of mandible
-def: "Apical margin/tooth- See Mandibles" [XX:<new dbxref>]
+def: "Apical margin/tooth- See Mandibles" []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
 id: SIBO:0000094
 name: basal margin of mandible
-def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref>]
+def: "Basal angle/ lamella/ margin tooth- See Mandibles" []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
@@ -589,7 +589,7 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000097
 name: antenna
-def: "Antenna- The antenna in ants consists of an elongate basal segment, the scape, followed distally by 3-11 smaller segments which together constitute the funiculus (=flagellum), giving a total antennal segement count (=antennomere count) of 4 to12. The scape articulates with the head in the antennal socket (=antennal insertion), a foramen located behind the clypeus. The antennal socket itself is enriched by a narrow annular sclerite, the torulus, and may be overhung and concealed by the frontal lobe. At the base of the scape is a ball-like condylar bulb (=articulatory bulb), the part which actually articulates within the socket. Just distal of the condylar bulb is a short constriction of neck, which may be straight or curved, beyond which the scape shaft proper commences. The funicular segments may be filiform or the apical 1-4 may be enlarged to form a club. See also frontal carinae, torulus." [XX:<new dbxref>]
+def: "Antenna- The antenna in ants consists of an elongate basal segment, the scape, followed distally by 3-11 smaller segments which together constitute the funiculus (=flagellum), giving a total antennal segement count (=antennomere count) of 4 to12. The scape articulates with the head in the antennal socket (=antennal insertion), a foramen located behind the clypeus. The antennal socket itself is enriched by a narrow annular sclerite, the torulus, and may be overhung and concealed by the frontal lobe. At the base of the scape is a ball-like condylar bulb (=articulatory bulb), the part which actually articulates within the socket. Just distal of the condylar bulb is a short constriction of neck, which may be straight or curved, beyond which the scape shaft proper commences. The funicular segments may be filiform or the apical 1-4 may be enlarged to form a club. See also frontal carinae, torulus." []
 relationship: adjacent_to SIBO:0000107 ! antennal socket
 created_by: cdsmith
 creation_date: 2007-10-27T12:34:00Z
@@ -633,7 +633,7 @@ relationship: part_of SIBO:0000116 ! mesopleuron
 [Term]
 id: SIBO:0000105
 name: mesosoma
-def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." [XX:<new dbxref>]
+def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." []
 synonym: "alitrunk" RELATED []
 is_a: SIBO:0000149 ! Anatomical part
 
@@ -649,19 +649,19 @@ creation_date: 2008-06-07T10:38:00Z
 [Term]
 id: SIBO:0000107
 name: antennal socket
-def: "Antennal socket/ insertion- See Antenna" [XX:<new dbxref>]
+def: "Antennal socket/ insertion- See Antenna" []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
 id: SIBO:0000108
 name: helcium
-def: "Helcium- The very reduced and specialized presclerites of abdominal segment 3, which form a complex articulation within the posterior foramen of the petiole. In general the helcium is mostly or entirely concealed within the posterior orifice of the petiole, but in certain groups it is partly visible. Disarticulation of abdominal segments 2 and 3 is necessary to examine the structure and its variation in detail. See also Abdomen." [XX:<new dbxref>]
+def: "Helcium- The very reduced and specialized presclerites of abdominal segment 3, which form a complex articulation within the posterior foramen of the petiole. In general the helcium is mostly or entirely concealed within the posterior orifice of the petiole, but in certain groups it is partly visible. Disarticulation of abdominal segments 2 and 3 is necessary to examine the structure and its variation in detail. See also Abdomen." []
 relationship: part_of SIBO:0000129 ! waist
 
 [Term]
 id: SIBO:0000109
 name: coxa number
-def: "Femur- The third segment of any leg, counting from the basal coxal segment that articulates with the alitrunk. The femur is generally the longest leg segment and is separted from the coxa only by a small segment, the trochanter.\n\nLeg segments- Each leg consists of a basal coax that articulated with the alitrucnk, followed in order by a small trochanter, a long and generally stouct fentur, a tibia, and a tarsus, the last consisting of five small segments and terminating apically in a pair of claws. The prefixes pro-, meso-, and meta-, applied to any of these terms, indicate that segment on the left of a particular thoracic segment." [XX:<new dbxref>]
+def: "Femur- The third segment of any leg, counting from the basal coxal segment that articulates with the alitrunk. The femur is generally the longest leg segment and is separted from the coxa only by a small segment, the trochanter.\n\nLeg segments- Each leg consists of a basal coax that articulated with the alitrucnk, followed in order by a small trochanter, a long and generally stouct fentur, a tibia, and a tarsus, the last consisting of five small segments and terminating apically in a pair of claws. The prefixes pro-, meso-, and meta-, applied to any of these terms, indicate that segment on the left of a particular thoracic segment." []
 synonym: "Leg segments" RELATED []
 relationship: part_of SIBO:0000105 ! mesosoma
 
@@ -678,7 +678,7 @@ relationship: part_of SIBO:0000105 ! mesosoma
 [Term]
 id: SIBO:0000112
 name: head
-def: "Clypeus- Anterior sclerite of the dorsal head, bounded posteriorly by the fronto-clypeal suture, which is also very commonly called the posterior clypeal margin or border. The anteriof clypeal margin usually forms the anterior margin of the head in full-face biew (but a projection of the labrum may be anterior to the clypeus in some taxa). The body of the clypeus consists of a pair of lateral portions, or narrow bands of cuticle, on each side of a shield-like median portion. The median portion of the clypeus may be equipped with one or more longitudinal carinae, or may be variously specialized in shape. Posteriorly the median portion of the clypeus may end in form of the antennal sockets/frontal carinae or lobes, or may project backwards between them. In some taxa the clypeus is very reduced and extremely narrow from front to back." [XX:<new dbxref>]
+def: "Clypeus- Anterior sclerite of the dorsal head, bounded posteriorly by the fronto-clypeal suture, which is also very commonly called the posterior clypeal margin or border. The anteriof clypeal margin usually forms the anterior margin of the head in full-face biew (but a projection of the labrum may be anterior to the clypeus in some taxa). The body of the clypeus consists of a pair of lateral portions, or narrow bands of cuticle, on each side of a shield-like median portion. The median portion of the clypeus may be equipped with one or more longitudinal carinae, or may be variously specialized in shape. Posteriorly the median portion of the clypeus may end in form of the antennal sockets/frontal carinae or lobes, or may project backwards between them. In some taxa the clypeus is very reduced and extremely narrow from front to back." []
 synonym: "Caphalic" RELATED []
 is_a: SIBO:0000149 ! Anatomical part
 
@@ -722,7 +722,7 @@ relationship: part_of SIBO:0000270 ! Metapleural gland
 [Term]
 id: SIBO:0000120
 name: mandible
-def: "Mandibles- The appendages with which ants manipulate their environment. They are very variable in shape, size, and dentition, and extremely important in ant taxonomy. \nMargins- In full-face view, with the mandibles closed, the inner margin or border (closest to an anterior extension of the midline of the head) of each mandibular blade is the apical margin (masticatory margin), and is usually armed with teeth. Proximally, close to the anterior margin of the clypeus, the apical margin usually passes through a basal angle into a transverse or oblique basal margin. The two margins may join through a broad or narrow curve, or meet in an angle or tooth. When the mandibles are narrow of linear, the distinction between the apical and basal margins may be lost by obliteration of the basal angle. The external margin (lateral margin) of each mandible forms its outer border in full-face view and may be straight, sinuate, or convex. \n\nDentition- The aprical margin of each mandible is usually armed with a series of teeth or denticles  (short or very reduced acute teeth) or both, which generally run the length of the apical margin. If teeth alone are present, or a combination of teeth and denticles, the mandible is denate. If only tiny dentricles occur the mandible is denticulate, and if the margin lacks armament it is edentate. A natural gap in a row of teeth is a diastema and an elongate mandible with an uninterrupted series of teeth may be described as serially dentate. Teeth are usually sharp and triangular in shape but may be rounded, long, narrow, and spine-like, or peg-like. Reduced teeth or dentivles that occur between full-sized teeth are intercalary. In general the first, distalmost, or apical tooth, the one farthest away from the anterior clypeal margin, is the largest on the apical margin, although in some taxa medial or basal teeth may be the largest. The tooth at or near of the basal angle is the basal tooth the tooth immediately behind the apical may be termed the preapical, though this term may be" [XX:<new dbxref>]
+def: "Mandibles- The appendages with which ants manipulate their environment. They are very variable in shape, size, and dentition, and extremely important in ant taxonomy. \nMargins- In full-face view, with the mandibles closed, the inner margin or border (closest to an anterior extension of the midline of the head) of each mandibular blade is the apical margin (masticatory margin), and is usually armed with teeth. Proximally, close to the anterior margin of the clypeus, the apical margin usually passes through a basal angle into a transverse or oblique basal margin. The two margins may join through a broad or narrow curve, or meet in an angle or tooth. When the mandibles are narrow of linear, the distinction between the apical and basal margins may be lost by obliteration of the basal angle. The external margin (lateral margin) of each mandible forms its outer border in full-face view and may be straight, sinuate, or convex. \n\nDentition- The aprical margin of each mandible is usually armed with a series of teeth or denticles  (short or very reduced acute teeth) or both, which generally run the length of the apical margin. If teeth alone are present, or a combination of teeth and denticles, the mandible is denate. If only tiny dentricles occur the mandible is denticulate, and if the margin lacks armament it is edentate. A natural gap in a row of teeth is a diastema and an elongate mandible with an uninterrupted series of teeth may be described as serially dentate. Teeth are usually sharp and triangular in shape but may be rounded, long, narrow, and spine-like, or peg-like. Reduced teeth or dentivles that occur between full-sized teeth are intercalary. In general the first, distalmost, or apical tooth, the one farthest away from the anterior clypeal margin, is the largest on the apical margin, although in some taxa medial or basal teeth may be the largest. The tooth at or near of the basal angle is the basal tooth the tooth immediately behind the apical may be termed the preapical, though this term may be" []
 synonym: "Apical margin tooth" RELATED []
 synonym: "Apical tooth" RELATED []
 synonym: "Debtate/Denticle/ Denticulate" RELATED []
@@ -742,7 +742,7 @@ is_obsolete: true
 [Term]
 id: SIBO:0000122
 name: pronotum
-def: "Pronotum- See Tergite" [XX:<new dbxref>]
+def: "Pronotum- See Tergite" []
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
@@ -763,7 +763,7 @@ relationship: part_of SIBO:0000105 ! mesosoma
 [Term]
 id: SIBO:0000126
 name: petiole
-def: "Petiole- The second abdominal segment immediately following the alitrunk, which is usually reduced and always isolated. Generally the petiole takes the form of a node or of a scale of varying shape and size, but in some taxa it may be very reduced, represented by only a narrow, subcylindrical segment that may be overhung and concealed by the gaster. The petiole bears the second abdominal spiracle and usually consists of a distinct tergite and sternite. The former may have differentiated laterotergites low down on the side. In some groups the petiolar tergite and sternite have fused together. See also Abdomen, Peduncle." [XX:<new dbxref>]
+def: "Petiole- The second abdominal segment immediately following the alitrunk, which is usually reduced and always isolated. Generally the petiole takes the form of a node or of a scale of varying shape and size, but in some taxa it may be very reduced, represented by only a narrow, subcylindrical segment that may be overhung and concealed by the gaster. The petiole bears the second abdominal spiracle and usually consists of a distinct tergite and sternite. The former may have differentiated laterotergites low down on the side. In some groups the petiolar tergite and sternite have fused together. See also Abdomen, Peduncle." []
 synonym: "subsessile" RELATED []
 relationship: part_of SIBO:0000129 ! waist
 
@@ -819,7 +819,7 @@ relationship: part_of SIBO:0000113 ! gaster
 [Term]
 id: SIBO:0000136
 name: alitrunk
-def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." [XX:<new dbxref>]
+def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." []
 is_obsolete: true
 
 [Term]
@@ -848,19 +848,19 @@ is_a: SIBO:0000149 ! Anatomical part
 [Term]
 id: SIBO:0000141
 name: hypopygium
-def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite." [XX:<new dbxref>]
+def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite." []
 relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
 id: SIBO:0000142
 name: presclerite
-def: "Presclerite- A distinctly differentiated anterior section of an abdominal sclerite, separated from the remainder of the sclerite by a ridge, constriction, or both. In the ant abdomen it is usual for the posterior portion of each sclerite to overlap the anterior portion of the following segment. The overlapped area usually lacks sculpture and pilosity, but the absence of these features alone does not constitute a presclerite. Presclerite derived from tergites are termed pretergites, those from sternites, presternites. The remainder of each sclerite, posterior to these developments, is the postsclerite and may be termed posttergite and poststernite, respectively. The presclerites of abdominal segment 3 form a very specialized articulateio with the posterior end of abdominal segment 2, termed the helicum." [XX:<new dbxref>]
+def: "Presclerite- A distinctly differentiated anterior section of an abdominal sclerite, separated from the remainder of the sclerite by a ridge, constriction, or both. In the ant abdomen it is usual for the posterior portion of each sclerite to overlap the anterior portion of the following segment. The overlapped area usually lacks sculpture and pilosity, but the absence of these features alone does not constitute a presclerite. Presclerite derived from tergites are termed pretergites, those from sternites, presternites. The remainder of each sclerite, posterior to these developments, is the postsclerite and may be termed posttergite and poststernite, respectively. The presclerites of abdominal segment 3 form a very specialized articulateio with the posterior end of abdominal segment 2, termed the helicum." []
 relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
 id: SIBO:0000143
 name: Semiochemical
-def: "Natural chemicals released by an organism that affect the behaviors of other individuals" [WP:\:http\://en.wikipedia.org/wiki/Semiochemical, XX:<new dbxref>]
+def: "Natural chemicals released by an organism that affect the behaviors of other individuals" [WP:\:http\://en.wikipedia.org/wiki/Semiochemical]
 is_a: SIBO:0000479 ! Chemical
 
 [Term]
@@ -3256,7 +3256,7 @@ creation_date: 2007-12-20T02:49:00Z
 [Term]
 id: SIBO:0000485
 name: postpetiole
-def: "Postpetiole- The third abdominal segment. In strict usage the term should only be applied when the third abdominal segment is reduced and separated from the petiole in front and the fourth abdominal segment behind. See also Abdomen." [XX:<new dbxref>]
+def: "Postpetiole- The third abdominal segment. In strict usage the term should only be applied when the third abdominal segment is reduced and separated from the petiole in front and the fourth abdominal segment behind. See also Abdomen." []
 relationship: part_of SIBO:0000129 ! waist
 created_by: ilma
 creation_date: 2007-12-20T03:29:00Z
@@ -3376,7 +3376,7 @@ creation_date: 2007-12-20T04:03:00Z
 [Term]
 id: SIBO:0000502
 name: spiracle
-def: "Spiracle- An orifice of the tracheal system by which gases enter and leave the body. Ants have 9 or 10 spiracles on each side of the body. The prothoracic spiracles have been lost, so the first opening occurs on the mesothroax." [XX:<new dbxref>]
+def: "Spiracle- An orifice of the tracheal system by which gases enter and leave the body. Ants have 9 or 10 spiracles on each side of the body. The prothoracic spiracles have been lost, so the first opening occurs on the mesothroax." []
 is_a: SIBO:0000149 ! Anatomical part
 relationship: part_of SIBO:0000495 ! abdominal segment number 2
 relationship: part_of SIBO:0000496 ! abdominal segment number 3
@@ -3579,7 +3579,7 @@ creation_date: 2008-03-11T03:52:00Z
 [Term]
 id: SIBO:0000528
 name: Predator Avoidance
-def: "Predation leads to quick return for patrollers to nest." [XX:<new dbxref>, XX:DOI\:10.1093/beheco/arl105]
+def: "Predation leads to quick return for patrollers to nest." [DOI:10.1093/beheco/arl105]
 is_a: SIBO:0000147 ! Behavior
 relationship: associated_with_behavior SIBO:0000525 ! Patrolling
 created_by: ilma
