@@ -3540,7 +3540,7 @@ creation_date: 2011-06-25T01:00:05Z
 [Term]
 id: SIBO:0000525
 name: Patrolling
-def: "Path of Patrolling:\n1. Patrollers emerge at sunrise\n2. Stroll around nest mound\n3. Inspect ground with antenna\n4. Deposite Dufour's gland \n4. Tuck abdomen under thorax\n5. Travel directly out on a stream of foragers" [XX:DOI\: 10.1086/522843 "Gordon, Deborah. American Naturalist: Natural History Note. Dec. 2007"]
+def: "Path of Patrolling:\n1. Patrollers emerge at sunrise\n2. Stroll around nest mound\n3. Inspect ground with antenna\n4. Deposite Dufour's gland \n4. Tuck abdomen under thorax\n5. Travel directly out on a stream of foragers" [DOI:10.1086/522843]
 is_a: SIBO:0000147 ! Behavior
 relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
 relationship: precedes SIBO:0000152 ! Foraging
