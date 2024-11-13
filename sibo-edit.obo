@@ -1245,7 +1245,7 @@ is_a: SIBO:0000198 ! Amino Acids
 [Term]
 id: SIBO:0000202
 name: N-acetylglycine
-def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y, mp biomedicals:100085]
+def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y, mpbiomedicals:100085]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: N-acetylglycine.\nSource of Standard: MP Biomedicals, Inc.
 is_a: SIBO:0000198 ! Amino Acids
 
