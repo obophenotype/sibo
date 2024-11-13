@@ -1,6 +1,6 @@
 format-version: 1.2
 default-namespace: sibo
-remark: The Social Insect Behavior Ontology (SIBO) was created by Chris Smith.\n\nThis ontology will eventually be integrated into the NBO\n\nMostly this is collected terms for Chemical, Anatomy, Behavior, Species.\n\nThe most developed use cases are for Pogonomyrmex harvester ant foraging and apis mellifera honeybee colony defense.
+remark: The Social Insect Behavior Ontology (SIBO) was created by Chris Smith. This ontology will eventually be integrated into the NBO ando contains collected terms for Chemical, Anatomy, Behavior, Species. The most developed use cases are for Pogonomyrmex harvester ant foraging and apis mellifera honeybee colony defense.
 ontology: sibo
 
 [Term]
@@ -371,7 +371,7 @@ relationship: is_relevant_for SIBO:0000463 ! Solenopsis maboya
 [Term]
 id: SIBO:0000061
 name: 2S6R-2-me-6-heptylpiperidine
-def: "2S6R-2-me-6-heptylpiperidine (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "2S6R-2-me-6-heptylpiperidine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -1567,7 +1567,7 @@ is_a: SIBO:0000149 ! Anatomical part
 [Term]
 id: SIBO:0000257
 name: Anabaseine
-def: "Anabaseine (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Anabaseine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -1646,7 +1646,7 @@ relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
 [Term]
 id: SIBO:0000268
 name: 4me-7-3Kt
-def: "4me-7-3Kt (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "4me-7-3Kt (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000230 ! Alarm
@@ -1725,7 +1725,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000274
 name: Me-4me-pyrrole-2-carboxylate
-def: "Me-4me-pyrrole-2-carboxylate (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Me-4me-pyrrole-2-carboxylate (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000228 ! Attractant
 relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
@@ -2174,7 +2174,7 @@ relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 [Term]
 id: SIBO:0000332
 name: Crematofuran
-def: "Crematofuran (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Crematofuran (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2204,7 +2204,7 @@ relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 [Term]
 id: SIBO:0000336
 name: 5-pentylresorcinol
-def: "5-pentylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "5-pentylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2214,7 +2214,7 @@ relationship: is_relevant_for SIBO:0000348 ! Crematogaster inflata
 [Term]
 id: SIBO:0000337
 name: 5-propylresorcinol
-def: "5-propylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "5-propylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2223,7 +2223,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000338
 name: 3-pentylphenol
-def: "3-pentylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "3-pentylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2233,7 +2233,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000339
 name: Mellein
-def: "Mellein (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Mellein (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2243,7 +2243,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000340
 name: 3-propylphenol
-def: "3-propylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "3-propylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2253,7 +2253,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000341
 name: 3,4-dihydro-8-hydroxyisocoumarin
-def: "3,4-dihydro-8-hydroxyisocoumarin (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "3,4-dihydro-8-hydroxyisocoumarin (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2272,7 +2272,7 @@ is_obsolete: true
 [Term]
 id: SIBO:0000344
 name: 3-heptylphenol
-def: "3-heptylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "3-heptylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2281,7 +2281,7 @@ relationship: is_relevant_for SIBO:0000323 ! Crematogaster difformis
 [Term]
 id: SIBO:0000345
 name: Isocrematofuran
-def: "Isocrematofuran (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Isocrematofuran (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2325,7 +2325,7 @@ is_a: SIBO:0000477 ! Species
 [Term]
 id: SIBO:0000353
 name: 5-heptylresorcinol
-def: "5-heptylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "5-heptylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2433,7 +2433,7 @@ relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 [Term]
 id: SIBO:0000366
 name: 2-phenylpropenal
-def: "2-phenylpropenal (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "2-phenylpropenal (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2518,7 +2518,7 @@ relationship: is_relevant_for SIBO:0000350 ! Crematogaster mormonum
 [Term]
 id: SIBO:0000377
 name: 1-17Hy-1,3,5-trihydroxycyclohexane
-def: "1-17Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "1-17Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2527,7 +2527,7 @@ relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 [Term]
 id: SIBO:0000378
 name: 1-19Hy-1,3,5-trihydroxycyclohexane
-def: "1-19Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "1-19Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2536,7 +2536,7 @@ relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 [Term]
 id: SIBO:0000379
 name: Z1-17Hy-1,3,5-trihydroxycyclohexane
-def: "Z1-17Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Z1-17Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2545,7 +2545,7 @@ relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 [Term]
 id: SIBO:0000380
 name: Z1-19Hy-1,3,5-trihydroxycyclohexane
-def: "Z1-19Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Z1-19Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2630,7 +2630,7 @@ relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 [Term]
 id: SIBO:0000393
 name: Y11E13E15Z18Z20-1-hydroxy-25Ac
-def: "Y11E13E15Z18Z20-1-hydroxy-25Ac (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Y11E13E15Z18Z20-1-hydroxy-25Ac (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2721,7 +2721,7 @@ relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 [Term]
 id: SIBO:0000408
 name: Gamma-decalactone
-def: "Gamma-decalactone (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Gamma-decalactone (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2749,7 +2749,7 @@ relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 [Term]
 id: SIBO:0000412
 name: Iridomyrmecin
-def: "Iridomyrmecin (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Iridomyrmecin (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3001,7 +3001,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000448
 name: 5me-6-3Kt
-def: "5me-6-3Kt (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "5me-6-3Kt (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3027,7 +3027,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000451
 name: Benzaldehyde
-def: "Benzaldehyde (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Benzaldehyde (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3045,7 +3045,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000453
 name: 2-phenyl-2-butenal
-def: "2-phenyl-2-butenal (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "2-phenyl-2-butenal (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3144,7 +3144,7 @@ is_a: SIBO:0000477 ! Species
 [Term]
 id: SIBO:0000470
 name: 3-hexyl-5me-indolizine
-def: "3-hexyl-5me-indolizine (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "3-hexyl-5me-indolizine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3194,7 +3194,7 @@ relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 [Term]
 id: SIBO:0000475
 name: trans-2-butyl-5-heptylpyrrolidine
-def: "Trans-2-butyl-5-heptylpyrrolidine (The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM." []
+def: "Trans-2-butyl-5-heptylpyrrolidine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
