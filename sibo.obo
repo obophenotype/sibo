@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2015-06-15
 default-namespace: sibo
+remark: The Social Insect Behavior Ontology (SIBO) was created by Chris Smith. This ontology will eventually be integrated into the NBO ando contains collected terms for Chemical, Anatomy, Behavior, Species. The most developed use cases are for Pogonomyrmex harvester ant foraging and apis mellifera honeybee colony defense.
 ontology: sibo
 
 [Term]
@@ -37,7 +37,7 @@ id: SIBO:0000003
 name: Urea
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Urea.\nSource of Standard: Alfa Aesar.
-synonym: "Carbamide" EXACT [KEGG COMPOUND:C00086]
+synonym: "Carbamide" EXACT [KEGG.COMPOUND:C00086]
 is_a: SIBO:0000002 ! Organic Compound
 
 [Term]
@@ -371,7 +371,7 @@ relationship: is_relevant_for SIBO:0000463 ! Solenopsis maboya
 [Term]
 id: SIBO:0000061
 name: 2S6R-2-me-6-heptylpiperidine
-def: "2S6R-2-me-6-heptylpiperidine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "2S6R-2-me-6-heptylpiperidine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -493,25 +493,25 @@ relationship: part_of SIBO:0000120 ! mandible
 [Term]
 id: SIBO:0000080
 name: anterior tentorial pit
-def: "Anterior tentorial pits- A pair of pits of impressions located anteriorly on the dorsal surface of the head, at or very close to the posterior clypeal margin. The pits indicate the points of attachment of the anterior arms of the internal skeleton (tentorium) of the head to head capsule. The termination of the posterior arms of the tentorium are marked by a pair of posterior tentorial pits, which are located close to the occipital foramen." [XX:<new dbxref>]
+def: "Anterior tentorial pits- A pair of pits of impressions located anteriorly on the dorsal surface of the head, at or very close to the posterior clypeal margin. The pits indicate the points of attachment of the anterior arms of the internal skeleton (tentorium) of the head to head capsule. The termination of the posterior arms of the tentorium are marked by a pair of posterior tentorial pits, which are located close to the occipital foramen (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
 id: SIBO:0000081
 name: basal angle of mandible
-def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref>]
+def: "Basal angle/ lamella/ margin tooth- See Mandibles (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222.)" []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
 id: SIBO:0000082
 name: basal tooth of mandible
-def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref>]
+def: "Basal angle/ lamella/ margin tooth- See Mandibles (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
 id: SIBO:0000083
 name: diastema
-def: "Diastema- See Mandibles" [XX:<new dbxref>]
+def: "Diastema- See Mandibles (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
@@ -522,7 +522,7 @@ relationship: part_of SIBO:0000120 ! mandible
 [Term]
 id: SIBO:0000085
 name: frontal carina
-def: "Frontal carinae- A pair of longitudinal ridges on the head, located dorsally behind the clypeus and between the antennal sockets. They are very variable in the length and strength of development, frequently being short and simple but sometimes extending back to the occipital margin of the head. In some groups the frontal carina are vestigial or absent, but elsewhere they may be strongly developed or form the dorsal margins of extensive antennal scrobes. Commonly the frontal carinae anteriorly are expanded into progecting lobate extensions, the frontal lobes, which partially or entirely cover and conceal the antennal sockets. Frontal lobes may be the only expression of the frontal carinae in some groups. Sometimes the portions of the torulus closets to the cephalic midline is raised and expanded into a small, laterally projecting lobe, which may extend beyond the lateral margin of the frontal carina or lobe." [XX:<new dbxref>]
+def: "Frontal carinae- A pair of longitudinal ridges on the head, located dorsally behind the clypeus and between the antennal sockets. They are very variable in the length and strength of development, frequently being short and simple but sometimes extending back to the occipital margin of the head. In some groups the frontal carina are vestigial or absent, but elsewhere they may be strongly developed or form the dorsal margins of extensive antennal scrobes. Commonly the frontal carinae anteriorly are expanded into progecting lobate extensions, the frontal lobes, which partially or entirely cover and conceal the antennal sockets. Frontal lobes may be the only expression of the frontal carinae in some groups. Sometimes the portions of the torulus closets to the cephalic midline is raised and expanded into a small, laterally projecting lobe, which may extend beyond the lateral margin of the frontal carina or lobe. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 synonym: "Frontal lobes" RELATED []
 relationship: part_of SIBO:0000112 ! head
 
@@ -534,13 +534,13 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000087
 name: fronto-clypeal suture
-def: "Fronto-clypeal suture- The suture forming the posterior margin or boundary of the clypeusl frequently referred to as the posterios clypeal margin." [XX:<new dbxref>]
+def: "Fronto-clypeal suture- The suture forming the posterior margin or boundary of the clypeusl frequently referred to as the posterios clypeal margin. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
 id: SIBO:0000088
 name: frontal triangle
-def: "Frontal triangle- A small triangular patch of the cuticle located mediodorsally on the head immediately behind the clypeus and approximately between the antennal sockets or anterior parts of the frontal carinae in many ant taxa." [XX:<new dbxref>]
+def: "Frontal triangle- A small triangular patch of the cuticle located mediodorsally on the head immediately behind the clypeus and approximately between the antennal sockets or anterior parts of the frontal carinae in many ant taxa. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
@@ -551,7 +551,7 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000090
 name: gena
-def: "Gena- Area of front of head bounded in front by the posterior margin of he clypeus, behind by the anterior margin of the eye, and medially by the antennal socket. The gena thus includes part of the cephalic dorsum and the side of the head capsule between the eye and the clypeus." [XX:<new dbxref>]
+def: "Gena- Area of front of head bounded in front by the posterior margin of he clypeus, behind by the anterior margin of the eye, and medially by the antennal socket. The gena thus includes part of the cephalic dorsum and the side of the head capsule between the eye and the clypeus. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: adjacent_to SIBO:0000112 ! head
 
 [Term]
@@ -567,13 +567,13 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000093
 name: apical margin of mandible
-def: "Apical margin/tooth- See Mandibles" [XX:<new dbxref>]
+def: "Apical margin/tooth- See Mandibles (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
 id: SIBO:0000094
 name: basal margin of mandible
-def: "Basal angle/ lamella/ margin tooth- See Mandibles" [XX:<new dbxref>]
+def: "Basal angle/ lamella/ margin tooth- See Mandibles (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000120 ! mandible
 
 [Term]
@@ -589,7 +589,7 @@ relationship: part_of SIBO:0000112 ! head
 [Term]
 id: SIBO:0000097
 name: antenna
-def: "Antenna- The antenna in ants consists of an elongate basal segment, the scape, followed distally by 3-11 smaller segments which together constitute the funiculus (=flagellum), giving a total antennal segement count (=antennomere count) of 4 to12. The scape articulates with the head in the antennal socket (=antennal insertion), a foramen located behind the clypeus. The antennal socket itself is enriched by a narrow annular sclerite, the torulus, and may be overhung and concealed by the frontal lobe. At the base of the scape is a ball-like condylar bulb (=articulatory bulb), the part which actually articulates within the socket. Just distal of the condylar bulb is a short constriction of neck, which may be straight or curved, beyond which the scape shaft proper commences. The funicular segments may be filiform or the apical 1-4 may be enlarged to form a club. See also frontal carinae, torulus." [XX:<new dbxref>]
+def: "Antenna- The antenna in ants consists of an elongate basal segment, the scape, followed distally by 3-11 smaller segments which together constitute the funiculus (=flagellum), giving a total antennal segement count (=antennomere count) of 4 to12. The scape articulates with the head in the antennal socket (=antennal insertion), a foramen located behind the clypeus. The antennal socket itself is enriched by a narrow annular sclerite, the torulus, and may be overhung and concealed by the frontal lobe. At the base of the scape is a ball-like condylar bulb (=articulatory bulb), the part which actually articulates within the socket. Just distal of the condylar bulb is a short constriction of neck, which may be straight or curved, beyond which the scape shaft proper commences. The funicular segments may be filiform or the apical 1-4 may be enlarged to form a club. See also frontal carinae, torulus. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: adjacent_to SIBO:0000107 ! antennal socket
 created_by: cdsmith
 creation_date: 2007-10-27T12:34:00Z
@@ -633,7 +633,7 @@ relationship: part_of SIBO:0000116 ! mesopleuron
 [Term]
 id: SIBO:0000105
 name: mesosoma
-def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." [XX:<new dbxref>]
+def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 synonym: "alitrunk" RELATED []
 is_a: SIBO:0000149 ! Anatomical part
 
@@ -649,19 +649,19 @@ creation_date: 2008-06-07T10:38:00Z
 [Term]
 id: SIBO:0000107
 name: antennal socket
-def: "Antennal socket/ insertion- See Antenna" [XX:<new dbxref>]
+def: "Antennal socket/ insertion- See Antenna (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
 id: SIBO:0000108
 name: helcium
-def: "Helcium- The very reduced and specialized presclerites of abdominal segment 3, which form a complex articulation within the posterior foramen of the petiole. In general the helcium is mostly or entirely concealed within the posterior orifice of the petiole, but in certain groups it is partly visible. Disarticulation of abdominal segments 2 and 3 is necessary to examine the structure and its variation in detail. See also Abdomen." [XX:<new dbxref>]
+def: "Helcium- The very reduced and specialized presclerites of abdominal segment 3, which form a complex articulation within the posterior foramen of the petiole. In general the helcium is mostly or entirely concealed within the posterior orifice of the petiole, but in certain groups it is partly visible. Disarticulation of abdominal segments 2 and 3 is necessary to examine the structure and its variation in detail. See also Abdomen. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000129 ! waist
 
 [Term]
 id: SIBO:0000109
 name: coxa number
-def: "Femur- The third segment of any leg, counting from the basal coxal segment that articulates with the alitrunk. The femur is generally the longest leg segment and is separted from the coxa only by a small segment, the trochanter.\n\nLeg segments- Each leg consists of a basal coax that articulated with the alitrucnk, followed in order by a small trochanter, a long and generally stouct fentur, a tibia, and a tarsus, the last consisting of five small segments and terminating apically in a pair of claws. The prefixes pro-, meso-, and meta-, applied to any of these terms, indicate that segment on the left of a particular thoracic segment." [XX:<new dbxref>]
+def: "Femur- The third segment of any leg, counting from the basal coxal segment that articulates with the alitrunk. The femur is generally the longest leg segment and is separted from the coxa only by a small segment, the trochanter.\n\nLeg segments- Each leg consists of a basal coax that articulated with the alitrucnk, followed in order by a small trochanter, a long and generally stouct fentur, a tibia, and a tarsus, the last consisting of five small segments and terminating apically in a pair of claws. The prefixes pro-, meso-, and meta-, applied to any of these terms, indicate that segment on the left of a particular thoracic segment. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 synonym: "Leg segments" RELATED []
 relationship: part_of SIBO:0000105 ! mesosoma
 
@@ -678,7 +678,7 @@ relationship: part_of SIBO:0000105 ! mesosoma
 [Term]
 id: SIBO:0000112
 name: head
-def: "Clypeus- Anterior sclerite of the dorsal head, bounded posteriorly by the fronto-clypeal suture, which is also very commonly called the posterior clypeal margin or border. The anteriof clypeal margin usually forms the anterior margin of the head in full-face biew (but a projection of the labrum may be anterior to the clypeus in some taxa). The body of the clypeus consists of a pair of lateral portions, or narrow bands of cuticle, on each side of a shield-like median portion. The median portion of the clypeus may be equipped with one or more longitudinal carinae, or may be variously specialized in shape. Posteriorly the median portion of the clypeus may end in form of the antennal sockets/frontal carinae or lobes, or may project backwards between them. In some taxa the clypeus is very reduced and extremely narrow from front to back." [XX:<new dbxref>]
+def: "Clypeus- Anterior sclerite of the dorsal head, bounded posteriorly by the fronto-clypeal suture, which is also very commonly called the posterior clypeal margin or border. The anteriof clypeal margin usually forms the anterior margin of the head in full-face biew (but a projection of the labrum may be anterior to the clypeus in some taxa). The body of the clypeus consists of a pair of lateral portions, or narrow bands of cuticle, on each side of a shield-like median portion. The median portion of the clypeus may be equipped with one or more longitudinal carinae, or may be variously specialized in shape. Posteriorly the median portion of the clypeus may end in form of the antennal sockets/frontal carinae or lobes, or may project backwards between them. In some taxa the clypeus is very reduced and extremely narrow from front to back. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 synonym: "Caphalic" RELATED []
 is_a: SIBO:0000149 ! Anatomical part
 
@@ -722,7 +722,7 @@ relationship: part_of SIBO:0000270 ! Metapleural gland
 [Term]
 id: SIBO:0000120
 name: mandible
-def: "Mandibles- The appendages with which ants manipulate their environment. They are very variable in shape, size, and dentition, and extremely important in ant taxonomy. \nMargins- In full-face view, with the mandibles closed, the inner margin or border (closest to an anterior extension of the midline of the head) of each mandibular blade is the apical margin (masticatory margin), and is usually armed with teeth. Proximally, close to the anterior margin of the clypeus, the apical margin usually passes through a basal angle into a transverse or oblique basal margin. The two margins may join through a broad or narrow curve, or meet in an angle or tooth. When the mandibles are narrow of linear, the distinction between the apical and basal margins may be lost by obliteration of the basal angle. The external margin (lateral margin) of each mandible forms its outer border in full-face view and may be straight, sinuate, or convex. \n\nDentition- The aprical margin of each mandible is usually armed with a series of teeth or denticles  (short or very reduced acute teeth) or both, which generally run the length of the apical margin. If teeth alone are present, or a combination of teeth and denticles, the mandible is denate. If only tiny dentricles occur the mandible is denticulate, and if the margin lacks armament it is edentate. A natural gap in a row of teeth is a diastema and an elongate mandible with an uninterrupted series of teeth may be described as serially dentate. Teeth are usually sharp and triangular in shape but may be rounded, long, narrow, and spine-like, or peg-like. Reduced teeth or dentivles that occur between full-sized teeth are intercalary. In general the first, distalmost, or apical tooth, the one farthest away from the anterior clypeal margin, is the largest on the apical margin, although in some taxa medial or basal teeth may be the largest. The tooth at or near of the basal angle is the basal tooth the tooth immediately behind the apical may be termed the preapical, though this term may be" [XX:<new dbxref>]
+def: "Mandibles- The appendages with which ants manipulate their environment. They are very variable in shape, size, and dentition, and extremely important in ant taxonomy. \nMargins- In full-face view, with the mandibles closed, the inner margin or border (closest to an anterior extension of the midline of the head) of each mandibular blade is the apical margin (masticatory margin), and is usually armed with teeth. Proximally, close to the anterior margin of the clypeus, the apical margin usually passes through a basal angle into a transverse or oblique basal margin. The two margins may join through a broad or narrow curve, or meet in an angle or tooth. When the mandibles are narrow of linear, the distinction between the apical and basal margins may be lost by obliteration of the basal angle. The external margin (lateral margin) of each mandible forms its outer border in full-face view and may be straight, sinuate, or convex. \n\nDentition- The aprical margin of each mandible is usually armed with a series of teeth or denticles  (short or very reduced acute teeth) or both, which generally run the length of the apical margin. If teeth alone are present, or a combination of teeth and denticles, the mandible is denate. If only tiny dentricles occur the mandible is denticulate, and if the margin lacks armament it is edentate. A natural gap in a row of teeth is a diastema and an elongate mandible with an uninterrupted series of teeth may be described as serially dentate. Teeth are usually sharp and triangular in shape but may be rounded, long, narrow, and spine-like, or peg-like. Reduced teeth or dentivles that occur between full-sized teeth are intercalary. In general the first, distalmost, or apical tooth, the one farthest away from the anterior clypeal margin, is the largest on the apical margin, although in some taxa medial or basal teeth may be the largest. The tooth at or near of the basal angle is the basal tooth the tooth immediately behind the apical may be termed the preapical, though this term may be (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 synonym: "Apical margin tooth" RELATED []
 synonym: "Apical tooth" RELATED []
 synonym: "Debtate/Denticle/ Denticulate" RELATED []
@@ -742,7 +742,7 @@ is_obsolete: true
 [Term]
 id: SIBO:0000122
 name: pronotum
-def: "Pronotum- See Tergite" [XX:<new dbxref>]
+def: "Pronotum- See Tergite (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
@@ -763,7 +763,7 @@ relationship: part_of SIBO:0000105 ! mesosoma
 [Term]
 id: SIBO:0000126
 name: petiole
-def: "Petiole- The second abdominal segment immediately following the alitrunk, which is usually reduced and always isolated. Generally the petiole takes the form of a node or of a scale of varying shape and size, but in some taxa it may be very reduced, represented by only a narrow, subcylindrical segment that may be overhung and concealed by the gaster. The petiole bears the second abdominal spiracle and usually consists of a distinct tergite and sternite. The former may have differentiated laterotergites low down on the side. In some groups the petiolar tergite and sternite have fused together. See also Abdomen, Peduncle." [XX:<new dbxref>]
+def: "Petiole- The second abdominal segment immediately following the alitrunk, which is usually reduced and always isolated. Generally the petiole takes the form of a node or of a scale of varying shape and size, but in some taxa it may be very reduced, represented by only a narrow, subcylindrical segment that may be overhung and concealed by the gaster. The petiole bears the second abdominal spiracle and usually consists of a distinct tergite and sternite. The former may have differentiated laterotergites low down on the side. In some groups the petiolar tergite and sternite have fused together. See also Abdomen, Peduncle. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 synonym: "subsessile" RELATED []
 relationship: part_of SIBO:0000129 ! waist
 
@@ -819,7 +819,7 @@ relationship: part_of SIBO:0000113 ! gaster
 [Term]
 id: SIBO:0000136
 name: alitrunk
-def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax." [XX:<new dbxref>]
+def: "Second visible tagma of an ants body following the head. Morphologically the Alitrunk consists of the three segments of the true thorax (pro-, meso-, and metathorax) to which is fused the propodeum, the tergite of the first abdominal segment to form a signal unit. See also Abdomen, Propodeum, Thorax. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 is_obsolete: true
 
 [Term]
@@ -848,19 +848,19 @@ is_a: SIBO:0000149 ! Anatomical part
 [Term]
 id: SIBO:0000141
 name: hypopygium
-def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite." [XX:<new dbxref>]
+def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
 id: SIBO:0000142
 name: presclerite
-def: "Presclerite- A distinctly differentiated anterior section of an abdominal sclerite, separated from the remainder of the sclerite by a ridge, constriction, or both. In the ant abdomen it is usual for the posterior portion of each sclerite to overlap the anterior portion of the following segment. The overlapped area usually lacks sculpture and pilosity, but the absence of these features alone does not constitute a presclerite. Presclerite derived from tergites are termed pretergites, those from sternites, presternites. The remainder of each sclerite, posterior to these developments, is the postsclerite and may be termed posttergite and poststernite, respectively. The presclerites of abdominal segment 3 form a very specialized articulateio with the posterior end of abdominal segment 2, termed the helicum." [XX:<new dbxref>]
+def: "Presclerite- A distinctly differentiated anterior section of an abdominal sclerite, separated from the remainder of the sclerite by a ridge, constriction, or both. In the ant abdomen it is usual for the posterior portion of each sclerite to overlap the anterior portion of the following segment. The overlapped area usually lacks sculpture and pilosity, but the absence of these features alone does not constitute a presclerite. Presclerite derived from tergites are termed pretergites, those from sternites, presternites. The remainder of each sclerite, posterior to these developments, is the postsclerite and may be termed posttergite and poststernite, respectively. The presclerites of abdominal segment 3 form a very specialized articulateio with the posterior end of abdominal segment 2, termed the helicum. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
 id: SIBO:0000143
 name: Semiochemical
-def: "Natural chemicals released by an organism that affect the behaviors of other individuals" [WP:\:http\://en.wikipedia.org/wiki/Semiochemical, XX:<new dbxref>]
+def: "Natural chemicals released by an organism that affect the behaviors of other individuals" [http://en.wikipedia.org/wiki/Semiochemical]
 is_a: SIBO:0000479 ! Chemical
 
 [Term]
@@ -1025,7 +1025,7 @@ id: SIBO:0000171
 name: Benzoic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:30746, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Benzoic acid.\nSource of Standard: Sigma-Aldrich.
-synonym: "Benzenecarboxylic acid" RELATED [KEGG COMPOUND:c00180]
+synonym: "Benzenecarboxylic acid" RELATED [KEGG.COMPOUND:c00180]
 is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
@@ -1033,7 +1033,7 @@ id: SIBO:0000172
 name: Malic Acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [CHEBI:6650, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Malic Acid.\nSource of Standard: Sigma-Aldrich.
-synonym: "hydroxybutanedioic acid" RELATED [KEGG COMPOUND:c00711]
+synonym: "hydroxybutanedioic acid" RELATED [KEGG.COMPOUND:c00711]
 is_a: SIBO:0000176 ! Dicarboxylic acid
 
 [Term]
@@ -1051,7 +1051,7 @@ id: SIBO:0000175
 name: Malonic Acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:30794, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Malonic Acid.\nSource of Standard: Alfa Aesar.\nSample Type-2: Silica gel in bottles or vials\nAnalysis Method-2: Water extracton with derivatization.\nCompound Name-2: Malonic Acid\nSource of Standard-2: Sigma-Aldrich.
-synonym: "Propanedioic acid" EXACT [KEGG COMPOUND:c00383]
+synonym: "Propanedioic acid" EXACT [KEGG.COMPOUND:c00383]
 is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
@@ -1078,7 +1078,7 @@ name: Uric acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:17775, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Uric acid.\nSource of Standard: MP Biomedicals, Inc.
 synonym: "2,6,8-trioxopurine" RELATED [NIST Chemistry WebBook:69-93-2]
-synonym: "Urate" RELATED [KEGG COMPOUND:c00366]
+synonym: "Urate" RELATED [KEGG.COMPOUND:c00366]
 is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
@@ -1100,7 +1100,7 @@ id: SIBO:0000182
 name: Stearic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [DOI:10.1007/s10886-006-9249-y, XX:28842]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Stearic acid.\nSource of Standard: Sigma-Aldrich.
-synonym: "Octadecanoic acid" EXACT [KEGG COMPOUND:c01530]
+synonym: "Octadecanoic acid" EXACT [KEGG.COMPOUND:c01530]
 synonym: "octadecoic acid" EXACT [ChEBI:28842]
 is_a: SIBO:0000178 ! Organic Acids
 
@@ -1146,7 +1146,7 @@ id: SIBO:0000188
 name: Methylmaleic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:17626, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Methylmaleic acid.\nSource of Standard: Sigma-Aldrich.
-synonym: "Citraconic acid" EXACT [KEGG COMPOUND:c02226]
+synonym: "Citraconic acid" EXACT [KEGG.COMPOUND:c02226]
 is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
@@ -1162,7 +1162,7 @@ id: SIBO:0000190
 name: Lactic acid
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:28358, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Lactic acid.\nSource of Standard: Sigma-Aldrich.\nSample Type-2: Silica gel in bottles or vials\nAnalysis Method-2: Water extracton with derivatization.\nCompound Name-2: Lactic acid.\nSource of Standard-2: Sigma-Aldrich.
-synonym: "2-Hydroxypropanoic acid" RELATED [KEGG COMPOUND:c01432]
+synonym: "2-Hydroxypropanoic acid" RELATED [KEGG.COMPOUND:c01432]
 is_a: SIBO:0000178 ! Organic Acids
 
 [Term]
@@ -1262,7 +1262,7 @@ id: SIBO:0000204
 name: Glutamine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:28300, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Glutamine.\nSource of Standard: Sigma-Aldrich.
-synonym: "2-Aminoglutaramin acid" EXACT [KEGG COMPOUND:c00303]
+synonym: "2-Aminoglutaramin acid" EXACT [KEGG.COMPOUND:c00303]
 is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
@@ -1270,7 +1270,7 @@ id: SIBO:0000205
 name: Phenylalanine
 def: "Profile of ant-derived compounds in silica gel nesting material." [ChEBI:28044, DOI:10.1007/s10886-006-9249-y]
 comment: Sample Type: Silica gel with excreta.\nAnalysis Method: No extraction with derivatization.\nCompound Name: Phenylalanine.\nSource of Standard: Sigma-Aldrich.
-synonym: "alpha-Amino-beta-phenylpropionic acid" EXACT [KEGG COMPOUND:c02057]
+synonym: "alpha-Amino-beta-phenylpropionic acid" EXACT [KEGG.COMPOUND:c02057]
 is_a: SIBO:0000198 ! Amino Acids
 
 [Term]
@@ -1567,7 +1567,7 @@ is_a: SIBO:0000149 ! Anatomical part
 [Term]
 id: SIBO:0000257
 name: Anabaseine
-def: "Anabaseine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Anabaseine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -1598,7 +1598,7 @@ relationship: is_relevant_for SIBO:0000244 ! Aphaenogaster cockerelli
 [Term]
 id: SIBO:0000261
 name: Dufour's gland
-def: "Patrollers influence foraging direction by depositing chemical secretions on the nest mound. Scout the nest mound with their abdomens tucked under their bodies (Gordon 1991). The secretions from the poison gland and the Dufour's gland exit from the stinger apparatus located in the abdomen. Dufour's gland secretions have been implicated in a variety of functions, including being territorial markers and propaganda pheromones used by parasitic ants. In Pogonomyrmex, Dufour's gland contents are composed mainly of species-specific blends of hydrocarbons. Poison gland secretions have been shown to act as sex pheromones and trail pheromones in ants." [XX:DOI\: 10.1086/522843]
+def: "Patrollers influence foraging direction by depositing chemical secretions on the nest mound. Scout the nest mound with their abdomens tucked under their bodies (Gordon 1991). The secretions from the poison gland and the Dufour's gland exit from the stinger apparatus located in the abdomen. Dufour's gland secretions have been implicated in a variety of functions, including being territorial markers and propaganda pheromones used by parasitic ants. In Pogonomyrmex, Dufour's gland contents are composed mainly of species-specific blends of hydrocarbons. Poison gland secretions have been shown to act as sex pheromones and trail pheromones in ants." [DOI:10.1086/522843]
 is_a: SIBO:0000256 ! Semiochemical gland
 is_a: SIBO:0000527 ! Trail Discrimination
 relationship: associated_with_behavior SIBO:0000525 ! Patrolling
@@ -1646,7 +1646,7 @@ relationship: is_relevant_for SIBO:0000250 ! Atta laevigata
 [Term]
 id: SIBO:0000268
 name: 4me-7-3Kt
-def: "4me-7-3Kt." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "4me-7-3Kt (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000230 ! Alarm
@@ -1725,7 +1725,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000274
 name: Me-4me-pyrrole-2-carboxylate
-def: "Me-4me-pyrrole-2-carboxylate." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Me-4me-pyrrole-2-carboxylate (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000228 ! Attractant
 relationship: is_relevant_for SIBO:0000246 ! Atta cephalotes
@@ -2174,7 +2174,7 @@ relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 [Term]
 id: SIBO:0000332
 name: Crematofuran
-def: "Crematofuran." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Crematofuran (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2204,7 +2204,7 @@ relationship: derived_from SIBO:0000325 ! Crematogaster clarithorax
 [Term]
 id: SIBO:0000336
 name: 5-pentylresorcinol
-def: "5-pentylresorcinol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "5-pentylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2214,7 +2214,7 @@ relationship: is_relevant_for SIBO:0000348 ! Crematogaster inflata
 [Term]
 id: SIBO:0000337
 name: 5-propylresorcinol
-def: "5-propylresorcinol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "5-propylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2223,7 +2223,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000338
 name: 3-pentylphenol
-def: "3-pentylphenol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "3-pentylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2233,7 +2233,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000339
 name: Mellein
-def: "Mellein." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Mellein (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2243,7 +2243,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000340
 name: 3-propylphenol
-def: "3-propylphenol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "3-propylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2253,7 +2253,7 @@ relationship: is_relevant_for SIBO:0000324 ! Crematogaster deformis
 [Term]
 id: SIBO:0000341
 name: 3,4-dihydro-8-hydroxyisocoumarin
-def: "3,4-dihydro-8-hydroxyisocoumarin." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "3,4-dihydro-8-hydroxyisocoumarin (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2272,7 +2272,7 @@ is_obsolete: true
 [Term]
 id: SIBO:0000344
 name: 3-heptylphenol
-def: "3-heptylphenol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "3-heptylphenol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2281,7 +2281,7 @@ relationship: is_relevant_for SIBO:0000323 ! Crematogaster difformis
 [Term]
 id: SIBO:0000345
 name: Isocrematofuran
-def: "Isocrematofuran." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Isocrematofuran (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2325,7 +2325,7 @@ is_a: SIBO:0000477 ! Species
 [Term]
 id: SIBO:0000353
 name: 5-heptylresorcinol
-def: "5-heptylresorcinol." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "5-heptylresorcinol (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2433,7 +2433,7 @@ relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 [Term]
 id: SIBO:0000366
 name: 2-phenylpropenal
-def: "2-phenylpropenal." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "2-phenylpropenal (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2518,7 +2518,7 @@ relationship: is_relevant_for SIBO:0000350 ! Crematogaster mormonum
 [Term]
 id: SIBO:0000377
 name: 1-17Hy-1,3,5-trihydroxycyclohexane
-def: "1-17Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "1-17Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2527,7 +2527,7 @@ relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 [Term]
 id: SIBO:0000378
 name: 1-19Hy-1,3,5-trihydroxycyclohexane
-def: "1-19Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "1-19Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2536,7 +2536,7 @@ relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 [Term]
 id: SIBO:0000379
 name: Z1-17Hy-1,3,5-trihydroxycyclohexane
-def: "Z1-17Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Z1-17Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2545,7 +2545,7 @@ relationship: is_relevant_for SIBO:0000349 ! Crematogaster nigriceps
 [Term]
 id: SIBO:0000380
 name: Z1-19Hy-1,3,5-trihydroxycyclohexane
-def: "Z1-19Hy-1,3,5-trihydroxycyclohexane." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Z1-19Hy-1,3,5-trihydroxycyclohexane (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2630,7 +2630,7 @@ relationship: is_relevant_for SIBO:0000382 ! Crematogaster sjostedti
 [Term]
 id: SIBO:0000393
 name: Y11E13E15Z18Z20-1-hydroxy-25Ac
-def: "Y11E13E15Z18Z20-1-hydroxy-25Ac." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Y11E13E15Z18Z20-1-hydroxy-25Ac (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2721,7 +2721,7 @@ relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 [Term]
 id: SIBO:0000408
 name: Gamma-decalactone
-def: "Gamma-decalactone." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Gamma-decalactone (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2749,7 +2749,7 @@ relationship: is_relevant_for SIBO:0000395 ! Linepithema humile
 [Term]
 id: SIBO:0000412
 name: Iridomyrmecin
-def: "Iridomyrmecin." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Iridomyrmecin (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -2920,6 +2920,7 @@ relationship: is_relevant_for SIBO:0000398 ! Pogonomyrmex badius
 [Term]
 id: SIBO:0000439
 name: Recognition
+is_a: SIBO:0000147 ! Behavior
 is_a: SIBO:0000442 ! Recruitment
 
 [Term]
@@ -2946,6 +2947,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 id: SIBO:0000442
 name: Recruitment
 is_a: SIBO:0000054 ! Bee colony defense
+is_a: SIBO:0000147 ! Behavior
 relationship: precedes SIBO:0000072 ! Secondary perception and discrimination or identification
 relationship: precedes SIBO:0000076 ! Threat
 
@@ -2999,7 +3001,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000448
 name: 5me-6-3Kt
-def: "5me-6-3Kt." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "5me-6-3Kt (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3025,7 +3027,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000451
 name: Benzaldehyde
-def: "Benzaldehyde." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Benzaldehyde (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3043,7 +3045,7 @@ relationship: is_relevant_for SIBO:0000437 ! Pogonomyrmex rugosus
 [Term]
 id: SIBO:0000453
 name: 2-phenyl-2-butenal
-def: "2-phenyl-2-butenal." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "2-phenyl-2-butenal (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3142,7 +3144,7 @@ is_a: SIBO:0000477 ! Species
 [Term]
 id: SIBO:0000470
 name: 3-hexyl-5me-indolizine
-def: "3-hexyl-5me-indolizine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "3-hexyl-5me-indolizine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3192,7 +3194,7 @@ relationship: is_relevant_for SIBO:0000467 ! Solenopsis sp
 [Term]
 id: SIBO:0000475
 name: trans-2-butyl-5-heptylpyrrolidine
-def: "Trans-2-butyl-5-heptylpyrrolidine." [The Pherobase: Database of Insect Phermones and Semiochemicals\:El-Sayed AM]
+def: "Trans-2-butyl-5-heptylpyrrolidine (The Pherobase: Database of Insect Phermones and Semiochemicals:El-Sayed AM." []
 is_a: SIBO:0000143 ! Semiochemical
 is_a: SIBO:0000225 ! Allomones
 relationship: associated_with_behavior SIBO:0000145 ! Defense
@@ -3256,7 +3258,7 @@ creation_date: 2007-12-20T02:49:00Z
 [Term]
 id: SIBO:0000485
 name: postpetiole
-def: "Postpetiole- The third abdominal segment. In strict usage the term should only be applied when the third abdominal segment is reduced and separated from the petiole in front and the fourth abdominal segment behind. See also Abdomen." [XX:<new dbxref>]
+def: "Postpetiole- The third abdominal segment. In strict usage the term should only be applied when the third abdominal segment is reduced and separated from the petiole in front and the fourth abdominal segment behind. See also Abdomen (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 relationship: part_of SIBO:0000129 ! waist
 created_by: ilma
 creation_date: 2007-12-20T03:29:00Z
@@ -3376,7 +3378,7 @@ creation_date: 2007-12-20T04:03:00Z
 [Term]
 id: SIBO:0000502
 name: spiracle
-def: "Spiracle- An orifice of the tracheal system by which gases enter and leave the body. Ants have 9 or 10 spiracles on each side of the body. The prothoracic spiracles have been lost, so the first opening occurs on the mesothroax." [XX:<new dbxref>]
+def: "Spiracle- An orifice of the tracheal system by which gases enter and leave the body. Ants have 9 or 10 spiracles on each side of the body. The prothoracic spiracles have been lost, so the first opening occurs on the mesothroax. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
 is_a: SIBO:0000149 ! Anatomical part
 relationship: part_of SIBO:0000495 ! abdominal segment number 2
 relationship: part_of SIBO:0000496 ! abdominal segment number 3
@@ -3547,7 +3549,7 @@ creation_date: 2011-06-25T01:00:05Z
 [Term]
 id: SIBO:0000525
 name: Patrolling
-def: "Path of Patrolling:\n1. Patrollers emerge at sunrise\n2. Stroll around nest mound\n3. Inspect ground with antenna\n4. Deposite Dufour's gland \n4. Tuck abdomen under thorax\n5. Travel directly out on a stream of foragers" [XX:DOI\: 10.1086/522843]
+def: "Path of Patrolling:\n1. Patrollers emerge at sunrise\n2. Stroll around nest mound\n3. Inspect ground with antenna\n4. Deposite Dufour's gland \n4. Tuck abdomen under thorax\n5. Travel directly out on a stream of foragers" [DOI:10.1086/522843]
 is_a: SIBO:0000147 ! Behavior
 relationship: is_relevant_for SIBO:0000400 ! Pogonomyrmex barbatus
 relationship: precedes SIBO:0000152 ! Foraging
@@ -3557,7 +3559,7 @@ creation_date: 2008-03-11T03:52:00Z
 [Term]
 id: SIBO:0000526
 name: Forager Antennae Contact
-def: "Foragers recognize returning patrollers during brief antennal contacts by detecting cues in task-specific cuticular hydrocarbons (Green and Gordon 2003)." [XX:DOI\: 10.1086/522843]
+def: "Foragers recognize returning patrollers during brief antennal contacts by detecting cues in task-specific cuticular hydrocarbons (Green and Gordon 2003)." [DOI:10.1086/522843]
 is_a: SIBO:0000147 ! Behavior
 relationship: associated_with_behavior SIBO:0000439 ! Recognition
 relationship: precedes SIBO:0000520 ! Return to nest
@@ -3569,7 +3571,7 @@ creation_date: 2008-03-11T03:52:00Z
 [Term]
 id: SIBO:0000527
 name: Trail Discrimination
-def: "Foragers travel from the nest in streams, or trails, and then fan out to individually search for seeds (Gordon 1991). Trails extend radially from edge of nest mound, with 1 m diameter. Trail is formed in a fan shaped region. Trails very day to day. Each colony chooses from up to eight distinct foraging trails. Direction varies in response to overlap with foragers of neighboring colonies. Foragers tend to travel in the direction from which most patrollers return." [XX:DOI\: 10.1086/522843]
+def: "Foragers travel from the nest in streams, or trails, and then fan out to individually search for seeds (Gordon 1991). Trails extend radially from edge of nest mound, with 1 m diameter. Trail is formed in a fan shaped region. Trails very day to day. Each colony chooses from up to eight distinct foraging trails. Direction varies in response to overlap with foragers of neighboring colonies. Foragers tend to travel in the direction from which most patrollers return." [DOI:10.1086/522843]
 is_a: SIBO:0000147 ! Behavior
 relationship: associated_with_behavior SIBO:0000525 ! Patrolling
 relationship: precedes SIBO:0000525 ! Patrolling
@@ -3579,7 +3581,7 @@ creation_date: 2008-03-11T03:52:00Z
 [Term]
 id: SIBO:0000528
 name: Predator Avoidance
-def: "Predation leads to quick return for patrollers to nest." [XX:<new dbxref>, XX:DOI\:10.1093/beheco/arl105]
+def: "Predation leads to quick return for patrollers to nest." [DOI:10.1093/beheco/arl105]
 is_a: SIBO:0000147 ! Behavior
 relationship: associated_with_behavior SIBO:0000525 ! Patrolling
 created_by: ilma
@@ -3588,7 +3590,7 @@ creation_date: 2008-03-11T03:52:00Z
 [Term]
 id: SIBO:0000529
 name: Emerge from Nest
-def: "Emerge from nest at sunrise." [XX:DOI\: 10.1086/522843]
+def: "Emerge from nest at sunrise." [DOI:10.1086/522843]
 relationship: precedes SIBO:0000525 ! Patrolling
 relationship: precedes SIBO:0000531 ! Move toward external stimuli
 created_by: ilma
