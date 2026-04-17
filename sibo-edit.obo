@@ -753,11 +753,15 @@ relationship: part_of SIBO:0000126 ! petiole
 [Term]
 id: SIBO:0000124
 name: promesonotal suture
+def: "Promesonotal suture- The transverse suture across the dorsal mesosoma and down its sides, that separates the pronotum from the mesothorax. In many groups of ants the promesonotal suture is fully developed, articulated and flexible. The posterior margin of the pronotum slightly overlaps the anterior mesonotum and the two sclerites are linked by intersegmental membrane so that they are capable of movement relative to each other. Elsewhere, and very commonly in workers, the suture is reduced from this condition. Initially in the sequence of reduction the suture is still present and distinct but inflexible, as the posterior pronotal margin has fused to the anterior margin of the mesonotum, and the intersegmental membrane has been lost. Beyond this fused condition the suture shows a gradual morphoclinal reduction in size and degree of definition, eventually becoming nothing more than a faint line or weak impression across the dorsum, or often disappearing altogether. When fusion and obliteration of the suture is advanced, and there is little or no sign of separation of the two original sclerites, the resultant fusion sclerite is termed the promesonotum. (Bolton, B. (1994). Identification guide to the ant genera of the world. Cambridge, Mass., Harvard University Press. pp.1-222)."
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
 id: SIBO:0000125
 name: propodeal lobe
+def: "Propodeal lobe- See Propodeum. (Bolton, B. (1994). Identification guide to the ant genera of the world. Cambridge, Mass., Harvard University Press. pp.1-222)."
+synonym: "metapleural lobe" EXACT []
+synonym: "inferior propodeal plate" EXACT []
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
@@ -787,6 +791,7 @@ relationship: part_of SIBO:0000140 ! metasoma
 [Term]
 id: SIBO:0000130
 name: promesonotum
+def: "See Promesonotal suture. (Bolton, B. (1994). Identification guide to the ant genera of the world. Cambridge, Mass., Harvard University Press. pp.1-222)."
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
