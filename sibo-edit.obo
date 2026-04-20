@@ -753,11 +753,15 @@ relationship: part_of SIBO:0000126 ! petiole
 [Term]
 id: SIBO:0000124
 name: promesonotal suture
+def: "The transverse suture across the dorsal mesosoma and down its sides, that separates the pronotum from the mesothorax." [ISBN:9780674442801]
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
 id: SIBO:0000125
 name: propodeal lobe
+def: "A lobe-shaped projection located posteroventrally on the propodeum, at the base of the propodeal declivity." [ISBN:9780674442801]
+synonym: "metapleural lobe" EXACT []
+synonym: "inferior propodeal plate" EXACT []
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
@@ -787,7 +791,9 @@ relationship: part_of SIBO:0000140 ! metasoma
 [Term]
 id: SIBO:0000130
 name: promesonotum
+def: "An anatomical cluster that comprises the fused pronotum and mesonotum." [DOI:10.1016/j.asd.2019.100877]
 relationship: part_of SIBO:0000105 ! mesosoma
+synonym: "pronoto-mesonotal complex" EXACT []
 
 [Term]
 id: SIBO:0000131
