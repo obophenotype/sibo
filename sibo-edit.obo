@@ -722,16 +722,16 @@ relationship: part_of SIBO:0000270 ! Metapleural gland
 [Term]
 id: SIBO:0000120
 name: mandible
-def: "Mandibles- The appendages with which ants manipulate their environment. They are very variable in shape, size, and dentition, and extremely important in ant taxonomy.\n\nMargins- In full-face view, with the mandibles closed, the inner margin or border (closest to an anterior extension of the midline of the head) of each mandibular blade is the apical margin (masticatory margin), and is usually armed with teeth. Proximally, close to the anterior margin of the clypeus, the apical margin usually passes through a basal angle into a transverse or oblique basal margin. The two margins may join through a broad or narrow curve, or meet in an angle or tooth. When the mandibles are narrow or linear, the distinction between the apical and basal margins may be lost by obliteration of the basal angle. The external margin (lateral margin) of each mandible forms its outer border in full-face view and may be straight, sinuate, or convex. \n\nDentition- The apical margin of each mandible is usually armed with a series of teeth or denticles (short or very reduced acute teeth) or both, which generally run the length of the apical margin. If teeth alone are present, or a combination of teeth and denticles, the mandible is dentate. If only tiny denticles occur the mandible is denticulate, and if the margin lacks armament it is edentate. A natural gap in a row of teeth is a diastema and an elongate mandible with an uninterrupted series of teeth may be described as serially dentate. Teeth are usually sharp and triangular in shape but may be rounded, long, narrow, and spine-like, or peg-like. Reduced teeth or denticles that occur between full-sized teeth are intercalary. In general the first, distalmost, or apical tooth, the one farthest away from the anterior clypeal margin, is the largest on the apical margin, although in some taxa medial or basal teeth may be the largest. The tooth at or near of the basal angle is the basal tooth the tooth immediately behind the apical may be termed the preapical, though this term may be (Bolton, B. (1994). Identification guide to the ant genera of the world. Cambridge, Mass., Harvard University Press. pp.1-222)." []
-synonym: "Apical margin tooth" RELATED []
-synonym: "Apical tooth" RELATED []
-synonym: "Dentate/Denticle/Denticulate" RELATED []
-synonym: "Diastema" RELATED []
-synonym: "Edentate" RELATED []
-synonym: "Elongate triangular" RELATED []
-synonym: "External margin" RELATED []
-synonym: "Falcate" RELATED []
-synonym: "Linear" RELATED []
+def: "Mandibles- The appendages with which ants manipulate their environment. They are very variable in shape, size, and dentition, and extremely important in ant taxonomy.\n\nMargins- In full-face view, with the mandibles closed, the inner margin or border (closest to an anterior extension of the midline of the head) of each mandibular blade is the apical margin (masticatory margin), and is usually armed with teeth. Proximally, close to the anterior margin of the clypeus, the apical margin usually passes through a basal angle into a transverse or oblique basal margin. The two margins may join through a broad or narrow curve, or meet in an angle or tooth. When the mandibles are narrow or linear, the distinction between the apical and basal margins may be lost by obliteration of the basal angle. The external margin (lateral margin) of each mandible forms its outer border in full-face view and may be straight, sinuate, or convex. \n\nDentition- The apical margin of each mandible is usually armed with a series of teeth or denticles (short or very reduced acute teeth) or both, which generally run the length of the apical margin. If teeth alone are present, or a combination of teeth and denticles, the mandible is dentate. If only tiny denticles occur the mandible is denticulate, and if the margin lacks armament it is edentate. A natural gap in a row of teeth is a diastema and an elongate mandible with an uninterrupted series of teeth may be described as serially dentate. Teeth are usually sharp and triangular in shape but may be rounded, long, narrow, and spine-like, or peg-like. Reduced teeth or denticles that occur between full-sized teeth are intercalary. In general the first, distalmost, or apical tooth, the one farthest away from the anterior clypeal margin, is the largest on the apical margin, although in some taxa medial or basal teeth may be the largest. The tooth at or near of the basal angle is the basal tooth the tooth immediately behind the apical may be termed the preapical, though this term may be (Bolton, B. (1994). Identification guide to the ant genera of the world. Cambridge, Mass., Harvard University Press. pp.1-222)." [ISBN:9780674442801]
+synonym: "Apical margin tooth" RELATED [ISBN:9780674442801]
+synonym: "Apical tooth" RELATED [ISBN:9780674442801]
+synonym: "Dentate/Denticle/Denticulate" RELATED [ISBN:9780674442801]
+synonym: "Diastema" RELATED [ISBN:9780674442801]
+synonym: "Edentate" RELATED [ISBN:9780674442801]
+synonym: "Elongate triangular" RELATED [ISBN:9780674442801]
+synonym: "External margin" RELATED [ISBN:9780674442801]
+synonym: "Falcate" RELATED [ISBN:9780674442801]
+synonym: "Linear" RELATED [ISBN:9780674442801]
 relationship: part_of SIBO:0000112 ! head
 
 [Term]
@@ -760,15 +760,15 @@ relationship: part_of SIBO:0000105 ! mesosoma
 id: SIBO:0000125
 name: propodeal lobe
 def: "A lobe-shaped projection located posteroventrally on the propodeum, at the base of the propodeal declivity." [ISBN:9780674442801]
-synonym: "metapleural lobe" EXACT []
-synonym: "inferior propodeal plate" EXACT []
+synonym: "metapleural lobe" EXACT [ISBN:9780674442801]
+synonym: "inferior propodeal plate" EXACT [ISBN:9780674442801]
 relationship: part_of SIBO:0000105 ! mesosoma
 
 [Term]
 id: SIBO:0000126
 name: petiole
-def: "Petiole- The second abdominal segment immediately following the alitrunk, which is usually reduced and always isolated. Generally the petiole takes the form of a node or of a scale of varying shape and size, but in some taxa it may be very reduced, represented by only a narrow, subcylindrical segment that may be overhung and concealed by the gaster. The petiole bears the second abdominal spiracle and usually consists of a distinct tergite and sternite. The former may have differentiated laterotergites low down on the side. In some groups the petiolar tergite and sternite have fused together. See also Abdomen, Peduncle. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
-synonym: "subsessile" RELATED []
+def: "Petiole- The second abdominal segment immediately following the alitrunk, which is usually reduced and always isolated. Generally the petiole takes the form of a node or of a scale of varying shape and size, but in some taxa it may be very reduced, represented by only a narrow, subcylindrical segment that may be overhung and concealed by the gaster. The petiole bears the second abdominal spiracle and usually consists of a distinct tergite and sternite. The former may have differentiated laterotergites low down on the side. In some groups the petiolar tergite and sternite have fused together. See also Abdomen, Peduncle. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." [ISBN:9780674442801]
+synonym: "subsessile" RELATED [ISBN:9780674442801]
 relationship: part_of SIBO:0000129 ! waist
 
 [Term]
@@ -792,8 +792,8 @@ relationship: part_of SIBO:0000140 ! metasoma
 id: SIBO:0000130
 name: promesonotum
 def: "An anatomical cluster that comprises the fused pronotum and mesonotum." [DOI:10.1016/j.asd.2019.100877]
+synonym: "pronoto-mesonotal complex" EXACT [DOI:10.1016/j.asd.2019.100877]
 relationship: part_of SIBO:0000105 ! mesosoma
-synonym: "pronoto-mesonotal complex" EXACT []
 
 [Term]
 id: SIBO:0000131
@@ -854,7 +854,7 @@ is_a: SIBO:0000149 ! Anatomical part
 [Term]
 id: SIBO:0000141
 name: hypopygium
-def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." []
+def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." [ISBN:9780674442801]
 relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
