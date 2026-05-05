@@ -854,7 +854,7 @@ is_a: SIBO:0000149 ! Anatomical part
 [Term]
 id: SIBO:0000141
 name: hypopygium
-def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite. (Bolton, B. (1994). Identificstion guide to the ant genera of the world. Cambridge, Mass., Harvard University PRess. pp.1-222)." [ISBN:9780674442801]
+def: "Hypopygium- The sternite of abdominal segment 7; the terminal visible gastral sternite. (Bolton, B. (1994). Identification guide to the ant genera of the world. Cambridge, Mass., Harvard University Press. pp.1-222)." [ISBN:9780674442801]
 relationship: part_of SIBO:0000113 ! gaster
 
 [Term]
