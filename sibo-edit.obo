@@ -3631,6 +3631,16 @@ is_a: SIBO:0000232 ! Dispersal
 created_by: cdsmith
 creation_date: 2011-06-25T09:06:06Z
 
+[Term]
+id: SIBO:0000534
+name: propodeum
+def: "The area that is located dorsomedially on the metapectal-propodeal complex." [HAO:0001994]
+comment: "Created to replace obsolete class SIBO:0000121."
+is_a: SIBO:0000149 ! Anatomical part
+relationship: part_of SIBO:0000105 ! mesosoma
+property_value: seeAlso "https://github.com/obophenotype/sibo/issues/15" xsd:anyURI
+created_by: https://orcid.org/0000-0002-4239-1500
+
 [Typedef]
 id: adjacent_to
 name: adjacent_to
