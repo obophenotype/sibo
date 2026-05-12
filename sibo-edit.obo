@@ -3637,6 +3637,8 @@ name: propodeum
 def: "The area that is located dorsomedially on the metapectal-propodeal complex." [HAO:0001994]
 is_a: SIBO:0000149 ! Anatomical part
 relationship: part_of SIBO:0000105 ! mesosoma
+relationship: dc-contributor https://orcid.org/0000-0002-4239-1500 ! Thiago S. R. Silva
+property_value: seeAlso "https://github.com/obophenotype/sibo/issues/15" xsd:anyURI
 comment: "Created to replace obsolete class SIBO:0000121."
 
 [Typedef]
